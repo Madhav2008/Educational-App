@@ -37,6 +37,7 @@ class _MainPageState extends State<MainPage> {
                           'Home Page',
                           style: TextStyle(
                             fontSize: 24,
+                            fontWeight: FontWeight.
                           ),
                         ),
                         RichText(
