@@ -80,6 +80,7 @@ class _MainPageState extends State<MainPage> {
             Container(
               height: 58,
               width: MediaQuery.of(context).size.width,
+              margin: EdgeInsets.only(left: 24,),
               decoration: BoxDecoration(),
               child: TextField(),
             ),
