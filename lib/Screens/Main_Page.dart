@@ -356,6 +356,7 @@ class _MainPageState extends State<MainPage> {
                                       children: <Widget>[
                                         Icon(
                                           Icons.star,
+                                          color: Colors.yellow,
                                         ),
                                       ],
                                     ),
