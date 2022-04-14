@@ -27,7 +27,7 @@ class _MainPageState extends State<MainPage> {
                     Column(
                       children: <Widget>[
                         Text('Home Page'),
-                        RichText(text:TextSpan(children:[TextSpan(text: 'Choose your course')]),
+                        RichText(text:TextSpan(children:[TextSpan(text: 'Choose your course'),]),
                       ],
                     )
                   ],
