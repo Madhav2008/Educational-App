@@ -182,6 +182,15 @@ class _MainPageState extends State<MainPage> {
                           decoration: BoxDecoration(
                             color: Colors.blue,
                             shape: BoxShape.circle,
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.yellow.withOpacity(
+                                  0.2,
+                                ),
+                                blurRadius: 3,
+                                spreadRadius: 4,
+                              ),
+                            ],
                           ),
                         ),
                         SizedBox(
