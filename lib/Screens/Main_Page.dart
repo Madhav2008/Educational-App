@@ -112,7 +112,7 @@ class _MainPageState extends State<MainPage> {
               ),
             ),
             SizedBox(
-              height: 24,
+              height: 8,
             ),
             GridView.count(
               crossAxisCount: 3,
