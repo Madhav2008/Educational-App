@@ -313,7 +313,7 @@ class _MainPageState extends State<MainPage> {
                     child: ListView(
                       shrinkWrap: true,
                       scrollDirection: Axis.horizontal,
-                      children: [],
+                      children: <Widget>[],
                     ),
                   ),
                 ],
