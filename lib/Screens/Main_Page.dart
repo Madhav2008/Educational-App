@@ -137,6 +137,24 @@ class _MainPageState extends State<MainPage> {
                       ],
                     ),
                   ),
+                  Container(
+                    child: Column(
+                      children: <Widget>[
+                        Container(
+                          height: 64,
+                          width: 64,
+                          decoration: BoxDecoration(
+                            color: Colors.yellow,
+                            shape: BoxShape.circle,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 8,
+                        ),
+                        Text('Category'),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
