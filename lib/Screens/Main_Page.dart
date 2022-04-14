@@ -36,6 +36,12 @@ class _MainPageState extends State<MainPage> {
                                   color: Colors.black,
                                 ),
                               ),
+                              TextSpan(
+                                text: 'Choose your course',
+                                style: TextStyle(
+                                  color: Colors.black,
+                                ),
+                              ),
                             ],
                           ),
                         ),
