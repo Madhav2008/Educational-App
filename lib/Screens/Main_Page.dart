@@ -305,7 +305,7 @@ class _MainPageState extends State<MainPage> {
                       ],
                     ),
                   ),
-                  Text('you may also like')
+                  Text('you may also like'),
                 ],
               ),
             ),
