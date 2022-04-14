@@ -314,7 +314,9 @@ class _MainPageState extends State<MainPage> {
                       shrinkWrap: true,
                       scrollDirection: Axis.horizontal,
                       children: <Widget>[
-                        Container(),
+                        Container(
+                          width: 160,
+                        ),
                       ],
                     ),
                   ),
