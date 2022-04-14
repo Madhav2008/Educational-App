@@ -128,7 +128,9 @@ class _MainPageState extends State<MainPage> {
                           decoration: BoxDecoration(
                             color: Colors.yellow,
                             shape: BoxShape.circle,
-                            boxShadow: [],
+                            boxShadow: [
+                              BoxShadow(),
+                            ],
                           ),
                         ),
                         SizedBox(
