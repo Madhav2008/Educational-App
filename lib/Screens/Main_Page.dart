@@ -97,11 +97,12 @@ class _MainPageState extends State<MainPage> {
               ),
               child: TextField(
                 decoration: InputDecoration(
-                  icon: Icon(Icons.search),
+                  icon: Icon(Icons.search, size: 14,),
                   hintText: "Search for your grade, course, training type...",
                   hintStyle: TextStyle(
                     fontSize: 12,
                   ),
+                  border: InputBorder.none,
                 ),
               ),
             ),
