@@ -660,7 +660,9 @@ class _MainPageState extends State<MainPage> {
               height: 240,
               child: Column(
                 children: <Widget>[
-                  Row(),
+                  Row(
+                    children: [],
+                  ),
                 ],
               ),
             ),
