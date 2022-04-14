@@ -661,7 +661,7 @@ class _MainPageState extends State<MainPage> {
               child: Column(
                 children: <Widget>[
                   Row(
-                    children: <Widget>[Text("Today's event")],
+                    children: <Widget>[Text("Today's event",)],
                   ),
                 ],
               ),
