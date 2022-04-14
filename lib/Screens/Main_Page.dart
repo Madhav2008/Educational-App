@@ -334,7 +334,7 @@ class _MainPageState extends State<MainPage> {
                           child: Column(
                             children: <Widget>[
                               Expanded(
-                                flex: 1,
+                                flex: 3,
                                 child: Container(
                                   decoration: BoxDecoration(
                                     color: Colors.blueGrey,
