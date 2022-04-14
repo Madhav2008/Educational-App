@@ -130,7 +130,9 @@ class _MainPageState extends State<MainPage> {
                             shape: BoxShape.circle,
                             boxShadow: [
                               BoxShadow(
-                                color: Colors.yellow.withOpacity(0.05,),
+                                color: Colors.yellow.withOpacity(
+                                  0.05,
+                                ),
                                 blurRadius: 3,
                                 spreadRadius: 4,
                               ),
