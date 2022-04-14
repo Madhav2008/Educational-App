@@ -366,6 +366,7 @@ class _MainPageState extends State<MainPage> {
                                         style: TextStyle(
                                           color: Colors.black,
                                           fontSize: 20,
+                                          fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       Row(
