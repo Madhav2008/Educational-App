@@ -82,6 +82,7 @@ class _MainPageState extends State<MainPage> {
               width: MediaQuery.of(context).size.width,
               margin: EdgeInsets.only(
                 left: 24,
+                right: 24,
               ),
               decoration: BoxDecoration(),
               child: TextField(),
