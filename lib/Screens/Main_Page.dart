@@ -298,7 +298,7 @@ class _MainPageState extends State<MainPage> {
           color: Colors.grey,
         ),
         selectedIconTheme: IconThemeData(
-          color: Colors.grey,
+          color: Colors.green,
         ),
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
