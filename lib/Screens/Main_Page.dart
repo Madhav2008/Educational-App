@@ -672,7 +672,9 @@ class _MainPageState extends State<MainPage> {
                   ),
                   Text(
                     'Join now',
-                    style: TextStyle(),
+                    style: TextStyle(
+                      color: Colors.tealAccent
+                    ),
                   ),
                 ],
               ),
