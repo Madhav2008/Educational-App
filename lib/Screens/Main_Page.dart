@@ -47,6 +47,7 @@ class _MainPageState extends State<MainPage> {
                                 text: 'Choose your course ',
                                 style: TextStyle(
                                   color: Colors.grey,
+                                  fontSize: 12,
                                 ),
                               ),
                               TextSpan(
