@@ -479,7 +479,7 @@ class _MainPageState extends State<MainPage> {
                                         ),
                                       ),
                                       Text(
-                                        '8.6',
+                                        '8.0',
                                         style: TextStyle(
                                           color: Colors.black,
                                           fontSize: 18,
