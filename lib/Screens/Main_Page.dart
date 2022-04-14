@@ -80,6 +80,7 @@ class _MainPageState extends State<MainPage> {
             ),
             Container(
               height: 58,
+              width: MediaQuery.of(context).size.width,
               child: TextField(),
             ),
           ],
