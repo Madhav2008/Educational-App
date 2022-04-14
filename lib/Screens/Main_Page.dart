@@ -96,7 +96,9 @@ class _MainPageState extends State<MainPage> {
                 borderRadius: BorderRadius.circular(16),
               ),
               child: TextField(
-                decoration: InputDecoration(),
+                decoration: InputDecoration(
+                  icon: Icon(Icons.search),
+                ),
               ),
             ),
           ],
