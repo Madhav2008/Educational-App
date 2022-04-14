@@ -388,7 +388,9 @@ class _MainPageState extends State<MainPage> {
                                             shape: BoxShape.circle,
                                           ),
                                           child: Center(
-                                            child: Icon(),
+                                            child: Icon(
+                                              Icons.favorite
+                                            ),
                                           ),
                                         ),
                                       ],
