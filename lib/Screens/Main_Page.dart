@@ -131,7 +131,7 @@ class _MainPageState extends State<MainPage> {
                             boxShadow: [
                               BoxShadow(
                                 color: Colors.yellow.withOpacity(
-                                  0.05,
+                                  0.1,
                                 ),
                                 blurRadius: 3,
                                 spreadRadius: 4,
