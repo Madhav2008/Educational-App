@@ -1,5 +1,6 @@
 // ignore_for_file: file_names, prefer_const_constructors_in_immutables
 
+import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 
 class MainPage extends StatefulWidget {
@@ -49,7 +50,7 @@ class _MainPageState extends State<MainPage> {
                       ],
                     ),
                     Spacer(),
-                    // Badge
+                    Badge()
                   ],
                 ),
               ),
