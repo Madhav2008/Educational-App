@@ -665,6 +665,9 @@ class _MainPageState extends State<MainPage> {
                       Text(
                         "Today's event",
                       ),
+                      Text(
+                        "Today's event",
+                      ),
                     ],
                   ),
                 ],
