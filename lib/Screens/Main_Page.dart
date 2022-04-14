@@ -120,7 +120,9 @@ class _MainPageState extends State<MainPage> {
                 crossAxisCount: 2,
                 children: <Widget>[
                   Container(
-                    child: Column(),
+                    child: Column(
+                      children: [],
+                    ),
                   ),
                 ],
               ),
