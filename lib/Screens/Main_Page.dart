@@ -676,6 +676,7 @@ class _MainPageState extends State<MainPage> {
                       Text(
                         'view all >',
                         style: TextStyle(
+                          color: Colors.grey,
                           fontSize: 18
                         ),
                       ),
