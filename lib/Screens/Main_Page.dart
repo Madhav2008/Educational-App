@@ -585,7 +585,7 @@ class _MainPageState extends State<MainPage> {
                                         CrossAxisAlignment.start,
                                     children: <Widget>[
                                       Text(
-                                        'Morning textbook',
+                                        'Illiustratic textbook',
                                         style: TextStyle(
                                           color: Colors.grey,
                                         ),
