@@ -353,7 +353,7 @@ class _MainPageState extends State<MainPage> {
                                     Text('Morning textbook'),
                                     Text('8.6'),
                                     Row(
-                                      children: [],
+                                      children: <Widget>[],
                                     ),
                                   ],
                                 ),
