@@ -391,7 +391,6 @@ class _MainPageState extends State<MainPage> {
                                             child: Icon(
                                               Icons.favorite,
                                             ),
-                                            
                                           ),
                                         ),
                                       ],
