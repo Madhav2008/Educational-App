@@ -297,6 +297,9 @@ class _MainPageState extends State<MainPage> {
         unselectedLabelStyle: TextStyle(
           color: Colors.grey,
         ),
+        unselectedLabelStyle: TextStyle(
+          color: Colors.grey,
+        ),
         selectedIconTheme: IconThemeData(
           color: Colors.green,
         ),
