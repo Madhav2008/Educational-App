@@ -16,7 +16,9 @@ class _MainPageState extends State<MainPage> {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            SafeArea(child: Container(),)
+            SafeArea(
+              child: Container(),
+            )
           ],
         ),
       ),
