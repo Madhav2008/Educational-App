@@ -122,7 +122,7 @@ class _MainPageState extends State<MainPage> {
                   Container(
                     child: Column(
                       children: <Widget>[
-                        Container()
+                        Container(),
                       ],
                     ),
                   ),
