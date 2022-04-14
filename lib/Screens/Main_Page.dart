@@ -291,7 +291,7 @@ class _MainPageState extends State<MainPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Row(
-                    children: [],
+                    children: <Widget>[],
                   ),
                 ],
               ),
