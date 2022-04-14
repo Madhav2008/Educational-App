@@ -114,175 +114,172 @@ class _MainPageState extends State<MainPage> {
             SizedBox(
               height: 24,
             ),
-            Container(
-              height: 240,
-              child: GridView.count(
-                crossAxisCount: 3,
-                children: <Widget>[
-                  Container(
-                    child: Column(
-                      children: <Widget>[
-                        Container(
-                          height: 64,
-                          width: 64,
-                          decoration: BoxDecoration(
-                            color: Colors.yellow,
-                            shape: BoxShape.circle,
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.yellow.withOpacity(
-                                  0.2,
-                                ),
-                                blurRadius: 3,
-                                spreadRadius: 4,
+            GridView.count(
+              crossAxisCount: 3,
+              children: <Widget>[
+                Container(
+                  child: Column(
+                    children: <Widget>[
+                      Container(
+                        height: 64,
+                        width: 64,
+                        decoration: BoxDecoration(
+                          color: Colors.yellow,
+                          shape: BoxShape.circle,
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.yellow.withOpacity(
+                                0.2,
                               ),
-                            ],
-                          ),
+                              blurRadius: 3,
+                              spreadRadius: 4,
+                            ),
+                          ],
                         ),
-                        SizedBox(
-                          height: 8,
-                        ),
-                        Text('Category'),
-                      ],
-                    ),
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
+                      Text('Category'),
+                    ],
                   ),
-                  Container(
-                    child: Column(
-                      children: <Widget>[
-                        Container(
-                          height: 64,
-                          width: 64,
-                          decoration: BoxDecoration(
-                            color: Colors.green,
-                            shape: BoxShape.circle,
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.green.withOpacity(
-                                  0.2,
-                                ),
-                                blurRadius: 3,
-                                spreadRadius: 4,
+                ),
+                Container(
+                  child: Column(
+                    children: <Widget>[
+                      Container(
+                        height: 64,
+                        width: 64,
+                        decoration: BoxDecoration(
+                          color: Colors.green,
+                          shape: BoxShape.circle,
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.green.withOpacity(
+                                0.2,
                               ),
-                            ],
-                          ),
+                              blurRadius: 3,
+                              spreadRadius: 4,
+                            ),
+                          ],
                         ),
-                        SizedBox(
-                          height: 8,
-                        ),
-                        Text('Boutique class'),
-                      ],
-                    ),
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
+                      Text('Boutique class'),
+                    ],
                   ),
-                  Container(
-                    child: Column(
-                      children: <Widget>[
-                        Container(
-                          height: 64,
-                          width: 64,
-                          decoration: BoxDecoration(
-                            color: Colors.blue,
-                            shape: BoxShape.circle,
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.blue.withOpacity(
-                                  0.2,
-                                ),
-                                blurRadius: 3,
-                                spreadRadius: 4,
+                ),
+                Container(
+                  child: Column(
+                    children: <Widget>[
+                      Container(
+                        height: 64,
+                        width: 64,
+                        decoration: BoxDecoration(
+                          color: Colors.blue,
+                          shape: BoxShape.circle,
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.blue.withOpacity(
+                                0.2,
                               ),
-                            ],
-                          ),
+                              blurRadius: 3,
+                              spreadRadius: 4,
+                            ),
+                          ],
                         ),
-                        SizedBox(
-                          height: 8,
-                        ),
-                        Text('Free course'),
-                      ],
-                    ),
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
+                      Text('Free course'),
+                    ],
                   ),
-                  Container(
-                    child: Column(
-                      children: <Widget>[
-                        Container(
-                          height: 64,
-                          width: 64,
-                          decoration: BoxDecoration(
-                            color: Colors.red,
-                            shape: BoxShape.circle,
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.red.withOpacity(
-                                  0.2,
-                                ),
-                                blurRadius: 3,
-                                spreadRadius: 4,
+                ),
+                Container(
+                  child: Column(
+                    children: <Widget>[
+                      Container(
+                        height: 64,
+                        width: 64,
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          shape: BoxShape.circle,
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.red.withOpacity(
+                                0.2,
                               ),
-                            ],
-                          ),
+                              blurRadius: 3,
+                              spreadRadius: 4,
+                            ),
+                          ],
                         ),
-                        SizedBox(
-                          height: 8,
-                        ),
-                        Text('Bookstore'),
-                      ],
-                    ),
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
+                      Text('Bookstore'),
+                    ],
                   ),
-                  Container(
-                    child: Column(
-                      children: <Widget>[
-                        Container(
-                          height: 64,
-                          width: 64,
-                          decoration: BoxDecoration(
-                            color: Colors.purple,
-                            shape: BoxShape.circle,
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.purple.withOpacity(
-                                  0.2,
-                                ),
-                                blurRadius: 3,
-                                spreadRadius: 4,
+                ),
+                Container(
+                  child: Column(
+                    children: <Widget>[
+                      Container(
+                        height: 64,
+                        width: 64,
+                        decoration: BoxDecoration(
+                          color: Colors.purple,
+                          shape: BoxShape.circle,
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.purple.withOpacity(
+                                0.2,
                               ),
-                            ],
-                          ),
+                              blurRadius: 3,
+                              spreadRadius: 4,
+                            ),
+                          ],
                         ),
-                        SizedBox(
-                          height: 8,
-                        ),
-                        Text('Live course'),
-                      ],
-                    ),
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
+                      Text('Live course'),
+                    ],
                   ),
-                  Container(
-                    child: Column(
-                      children: <Widget>[
-                        Container(
-                          height: 64,
-                          width: 64,
-                          decoration: BoxDecoration(
-                            color: Colors.lightGreenAccent,
-                            shape: BoxShape.circle,
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.lightGreenAccent.withOpacity(
-                                  0.2,
-                                ),
-                                blurRadius: 3,
-                                spreadRadius: 4,
+                ),
+                Container(
+                  child: Column(
+                    children: <Widget>[
+                      Container(
+                        height: 64,
+                        width: 64,
+                        decoration: BoxDecoration(
+                          color: Colors.lightGreenAccent,
+                          shape: BoxShape.circle,
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.lightGreenAccent.withOpacity(
+                                0.2,
                               ),
-                            ],
-                          ),
+                              blurRadius: 3,
+                              spreadRadius: 4,
+                            ),
+                          ],
                         ),
-                        SizedBox(
-                          height: 8,
-                        ),
-                        Text('Leaderboard'),
-                      ],
-                    ),
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
+                      Text('Leaderboard'),
+                    ],
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
           ],
         ),
