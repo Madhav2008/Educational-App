@@ -309,7 +309,7 @@ class _MainPageState extends State<MainPage> {
                     height: 16,
                   ),
                   Container(
-                    height: 170,
+                    height: 160,
                     child: ListView(
                       shrinkWrap: true,
                       scrollDirection: Axis.horizontal,
