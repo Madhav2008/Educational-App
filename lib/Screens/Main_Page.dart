@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 
 class MainPage extends StatefulWidget {
-  MainPage({ Key? key }) : super(key: key);
+  MainPage({Key? key}) : super(key: key);
 
   @override
   State<MainPage> createState() => _MainPageState();
@@ -14,7 +14,9 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: Column(children: [],),
+        child: Column(
+          children: [],
+        ),
       ),
     );
   }
