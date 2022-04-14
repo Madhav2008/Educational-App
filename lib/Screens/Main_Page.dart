@@ -313,7 +313,7 @@ class _MainPageState extends State<MainPage> {
             label: 'Growing',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: Icon(Icons.person),
             label: 'Profile',
           ),
         ],
