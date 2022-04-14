@@ -117,7 +117,7 @@ class _MainPageState extends State<MainPage> {
             GridView.count(
               crossAxisCount: 3,
               shrinkWrap: true,
-              padding: 
+              padding: EdgeInsets.only(top: 8),
               children: <Widget>[
                 Container(
                   child: Column(
