@@ -391,6 +391,7 @@ class _MainPageState extends State<MainPage> {
                                             child: Icon(
                                               Icons.favorite,
                                               size: 13,
+                                              color: Colors.white,
                                             ),
                                           ),
                                         ),
