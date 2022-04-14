@@ -666,7 +666,7 @@ class _MainPageState extends State<MainPage> {
                         "Today's event",
                       ),
                       Text(
-                        '',
+                        'view all >',
                       ),
                     ],
                   ),
