@@ -114,7 +114,9 @@ class _MainPageState extends State<MainPage> {
             SizedBox(
               height: 24,
             ),
-            Container(),
+            Container(
+              height: 240,
+            ),
           ],
         ),
       ),
