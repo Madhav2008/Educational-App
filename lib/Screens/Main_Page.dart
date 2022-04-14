@@ -374,6 +374,7 @@ class _MainPageState extends State<MainPage> {
                                           Icons.star,
                                           color: Colors.grey,
                                         ),
+                                        Spacer()
                                       ],
                                     ),
                                   ],
