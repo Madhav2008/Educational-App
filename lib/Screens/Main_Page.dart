@@ -348,7 +348,7 @@ class _MainPageState extends State<MainPage> {
                               Expanded(
                                 flex: 4,
                                 child: Column(
-                                  children: [],
+                                  children: <Widget>[],
                                 ),
                               ),
                             ],
