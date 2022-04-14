@@ -668,7 +668,7 @@ class _MainPageState extends State<MainPage> {
                     children: <Widget>[
                       Text(
                         "Today's event",
-                        style: TextStyle()
+                        style: TextStyle(),
                       ),
                       Spacer(),
                       Text(
