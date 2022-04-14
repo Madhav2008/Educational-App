@@ -296,6 +296,7 @@ class _MainPageState extends State<MainPage> {
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
+            label: Text('Home')
           ),
         ],
       ),
