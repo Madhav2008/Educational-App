@@ -657,7 +657,9 @@ class _MainPageState extends State<MainPage> {
               ),
             ),
             Container(
-              padding: EdgeInsets.symmetric(horizontal: 24,),
+              padding: EdgeInsets.symmetric(
+                horizontal: 24,
+              ),
               height: 240,
               child: Column(
                 children: <Widget>[
