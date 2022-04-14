@@ -664,7 +664,7 @@ class _MainPageState extends State<MainPage> {
                     children: <Widget>[
                       Text(
                         "Today's event",
-                      )
+                      ),
                     ],
                   ),
                 ],
