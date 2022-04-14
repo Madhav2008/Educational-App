@@ -292,7 +292,9 @@ class _MainPageState extends State<MainPage> {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(items: [],),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [],
+      ),
     );
   }
 }
