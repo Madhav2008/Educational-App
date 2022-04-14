@@ -187,7 +187,7 @@ class _MainPageState extends State<MainPage> {
                         SizedBox(
                           height: 8,
                         ),
-                        Text('Category'),
+                        Text('Bookstore'),
                       ],
                     ),
                   ),
