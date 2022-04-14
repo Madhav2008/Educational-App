@@ -30,7 +30,7 @@ class _MainPageState extends State<MainPage> {
                         RichText(
                           text: TextSpan(
                             children: [
-                              TextSpan(text: 'Choose your course'),
+                              TextSpan(text: 'Choose your course', style: TextStyle(),),
                             ],
                           ),
                         ),
