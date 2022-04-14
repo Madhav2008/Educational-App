@@ -341,7 +341,7 @@ class _MainPageState extends State<MainPage> {
                                     borderRadius: BorderRadius.circular(4),
                                   ),
                                   child: Center(
-                                    child: Text('Place Your Image'),
+                                    child: Text('Place Your Image', style: TextStyle(),),
                                   ),
                                 ),
                               ),
