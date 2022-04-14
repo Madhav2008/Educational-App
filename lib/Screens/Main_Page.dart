@@ -324,7 +324,7 @@ class _MainPageState extends State<MainPage> {
                             color: Colors.red,
                           ),
                           child: Column(
-                            children: [],
+                            children: <Widget>[],
                           ),
                         ),
                       ],
