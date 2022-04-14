@@ -40,7 +40,9 @@ class _MainPageState extends State<MainPage> {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        SizedBox(),
+                        SizedBox(
+                          height: 8,
+                        ),
                         RichText(
                           text: TextSpan(
                             children: [
