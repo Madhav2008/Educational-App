@@ -390,6 +390,7 @@ class _MainPageState extends State<MainPage> {
                                           child: Center(
                                             child: Icon(
                                               Icons.favorite,
+                                              size:13
                                             ),
                                           ),
                                         ),
