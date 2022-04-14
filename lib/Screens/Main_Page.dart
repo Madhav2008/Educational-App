@@ -299,7 +299,7 @@ class _MainPageState extends State<MainPage> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: Icon(Icons.book),
             label: 'Subject',
           ),
           BottomNavigationBarItem(
