@@ -25,6 +25,7 @@ class _MainPageState extends State<MainPage> {
                 child: Row(
                   children: <Widget>[
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text('Home Page'),
                         RichText(
