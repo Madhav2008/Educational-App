@@ -121,7 +121,9 @@ class _MainPageState extends State<MainPage> {
                 children: <Widget>[
                   Container(
                     child: Column(
-                      children: <Widget>[],
+                      children: <Widget>[
+                        Container()
+                      ],
                     ),
                   ),
                 ],
