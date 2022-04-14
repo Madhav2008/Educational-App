@@ -361,7 +361,10 @@ class _MainPageState extends State<MainPage> {
                                           color: Colors.grey,
                                         ),
                                       ),
-                                      Text('8.6', style: TextStyle(),),
+                                      Text(
+                                        '8.6',
+                                        style: TextStyle(),
+                                      ),
                                       Row(
                                         children: <Widget>[
                                           Icon(
