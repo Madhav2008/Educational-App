@@ -287,7 +287,9 @@ class _MainPageState extends State<MainPage> {
             ),
             Container(
               height: 240,
-              padding: EdgeInsets.only(left: 24,),
+              padding: EdgeInsets.only(
+                left: 24,
+              ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
