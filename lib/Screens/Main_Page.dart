@@ -119,7 +119,9 @@ class _MainPageState extends State<MainPage> {
               child: GridView.count(
                 crossAxisCount: 2,
                 children: <Widget>[
-                  Container(),
+                  Container(
+                    child: Column(),
+                  ),
                 ],
               ),
             ),
