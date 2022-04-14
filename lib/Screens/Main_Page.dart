@@ -354,7 +354,9 @@ class _MainPageState extends State<MainPage> {
                                     Text('8.6'),
                                     Row(
                                       children: <Widget>[
-                                        Icon(Icons.star,),
+                                        Icon(
+                                          Icons.star,
+                                        ),
                                       ],
                                     ),
                                   ],
