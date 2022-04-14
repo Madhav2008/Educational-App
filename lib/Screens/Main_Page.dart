@@ -86,7 +86,7 @@ class _MainPageState extends State<MainPage> {
               ),
               decoration: BoxDecoration(
                 color: Colors.grey[50],
-                borderRadius: BorderRadius.circular(16)
+                borderRadius: BorderRadius.circular(16),
               ),
               child: TextField(),
             ),
