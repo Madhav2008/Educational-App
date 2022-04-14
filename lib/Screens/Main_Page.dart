@@ -39,7 +39,7 @@ class _MainPageState extends State<MainPage> {
                               TextSpan(
                                 text: 'right away',
                                 style: TextStyle(
-                                  color: Colors.black,
+                                  color: Colors.teal,
                                 ),
                               ),
                             ],
