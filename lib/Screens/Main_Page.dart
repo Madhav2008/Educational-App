@@ -350,6 +350,7 @@ class _MainPageState extends State<MainPage> {
                                 child: Padding(
                                   padding: EdgeInsets.all(8.0),
                                   child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: <Widget>[
                                       Text('Morning textbook'),
