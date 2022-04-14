@@ -98,6 +98,7 @@ class _MainPageState extends State<MainPage> {
               child: TextField(
                 decoration: InputDecoration(
                   icon: Icon(Icons.search),
+                  hintText: "Search for your grade, course, training type...",
                 ),
               ),
             ),
