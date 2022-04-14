@@ -316,6 +316,7 @@ class _MainPageState extends State<MainPage> {
                       children: <Widget>[
                         Container(
                           width: 160,
+                          decoration: BoxDecoration(),
                         ),
                       ],
                     ),
