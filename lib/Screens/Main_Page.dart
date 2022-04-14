@@ -293,6 +293,7 @@ class _MainPageState extends State<MainPage> {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        currentIndex: 0,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(
