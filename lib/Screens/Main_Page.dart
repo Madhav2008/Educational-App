@@ -92,7 +92,7 @@ class _MainPageState extends State<MainPage> {
                 right: 24,
               ),
               decoration: BoxDecoration(
-                color: Colors.grey[50],
+                color: Colors.blueGrey[50],
                 borderRadius: BorderRadius.circular(16),
               ),
               child: TextField(
