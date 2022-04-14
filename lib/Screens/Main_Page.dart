@@ -99,7 +99,9 @@ class _MainPageState extends State<MainPage> {
                 decoration: InputDecoration(
                   icon: Icon(Icons.search),
                   hintText: "Search for your grade, course, training type...",
-                  hintStyle: TextStyle(),
+                  hintStyle: TextStyle(
+                    fontSize: 12,
+                  ),
                 ),
               ),
             ),
