@@ -19,6 +19,7 @@ class _MainPageState extends State<MainPage> {
             SafeArea(
               top: true,
               left: true,
+              right: true,
               child: Container(),
             )
           ],
