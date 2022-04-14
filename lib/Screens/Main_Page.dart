@@ -14,7 +14,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: Column(children: []),
+        child: Column(children: [],),
       ),
     );
   }
