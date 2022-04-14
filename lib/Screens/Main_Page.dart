@@ -328,7 +328,9 @@ class _MainPageState extends State<MainPage> {
                               Expanded(
                                 flex: 1,
                                 child: Container(
-                                  decoration: BoxDecoration(),
+                                  decoration: BoxDecoration(
+                                    color: Colors.blue,
+                                  ),
                                 ),
                               ),
                               Expanded(
