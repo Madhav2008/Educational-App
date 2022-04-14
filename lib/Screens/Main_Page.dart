@@ -23,7 +23,9 @@ class _MainPageState extends State<MainPage> {
               right: true,
               child: Container(
                 height: 80,
-                padding: EdgeInsets.symmetric(horizontal: 16,),
+                padding: EdgeInsets.symmetric(
+                  horizontal: 16,
+                ),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
