@@ -31,7 +31,7 @@ class _MainPageState extends State<MainPage> {
                           text: TextSpan(
                             children: [
                               TextSpan(
-                                text: 'Choose your course',
+                                text: 'Choose your course ',
                                 style: TextStyle(
                                   color: Colors.black,
                                 ),
