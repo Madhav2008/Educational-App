@@ -24,7 +24,7 @@ class _MainPageState extends State<MainPage> {
               child: Container(
                 height: 80,
                 padding: EdgeInsets.symmetric(
-                  horizontal: 16,
+                  horizontal: 24,
                 ),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
