@@ -35,7 +35,9 @@ class _MainPageState extends State<MainPage> {
                       children: <Widget>[
                         Text(
                           'Home Page',
-                          style: TextStyle(),
+                          style: TextStyle(
+                            fontSize: 24,
+                          ),
                         ),
                         RichText(
                           text: TextSpan(
