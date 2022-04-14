@@ -304,7 +304,7 @@ class _MainPageState extends State<MainPage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: 'Home',
+            label: 'Growing',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
