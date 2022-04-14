@@ -348,6 +348,7 @@ class _MainPageState extends State<MainPage> {
                               Expanded(
                                 flex: 4,
                                 child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[],
                                 ),
                               ),
