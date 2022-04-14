@@ -315,7 +315,7 @@ class _MainPageState extends State<MainPage> {
                       scrollDirection: Axis.horizontal,
                       children: <Widget>[
                         Container(
-                          width: 160,
+                          width: 120,
                           decoration: BoxDecoration(
                             color: Colors.red,
                           ),
