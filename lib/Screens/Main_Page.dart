@@ -392,7 +392,6 @@ class _MainPageState extends State<MainPage> {
                                               Icons.favorite,
                                               size:13,
                                             ),
-                                            
                                           ),
                                         ),
                                       ],
