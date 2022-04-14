@@ -324,16 +324,6 @@ class _MainPageState extends State<MainPage> {
                             color: Colors.red,
                           ),
                         ),
-                        Container(
-                          width: 140,
-                          margin: EdgeInsets.only(
-                            right: 16,
-                            bottom: 8,
-                          ),
-                          decoration: BoxDecoration(
-                            color: Colors.red,
-                          ),
-                        ),
                       ],
                     ),
                   ),
