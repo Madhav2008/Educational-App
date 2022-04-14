@@ -95,7 +95,9 @@ class _MainPageState extends State<MainPage> {
                 color: Colors.grey[50],
                 borderRadius: BorderRadius.circular(16),
               ),
-              child: TextField(),
+              child: TextField(
+                decoration: InputDecoration()
+              ),
             ),
           ],
         ),
