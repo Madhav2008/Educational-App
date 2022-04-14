@@ -352,7 +352,9 @@ class _MainPageState extends State<MainPage> {
                                   children: <Widget>[
                                     Text('Morning textbook'),
                                     Text('8.6'),
-                                    Row(),
+                                    Row(
+                                      children: [],
+                                    ),
                                   ],
                                 ),
                               ),
