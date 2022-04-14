@@ -23,7 +23,7 @@ class _MainPageState extends State<MainPage> {
               child: Container(
                 height: 80,
                 child: Row(
-                  children: [],
+                  children: <Widget>[],
                 ),
               ),
             )
