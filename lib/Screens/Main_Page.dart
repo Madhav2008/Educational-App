@@ -358,6 +358,10 @@ class _MainPageState extends State<MainPage> {
                                           Icons.star,
                                           color: Colors.yellow,
                                         ),
+                                        Icon(
+                                          Icons.star,
+                                          color: Colors.yellow,
+                                        ),
                                       ],
                                     ),
                                   ],
