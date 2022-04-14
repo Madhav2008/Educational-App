@@ -80,7 +80,7 @@ class _MainPageState extends State<MainPage> {
             ),
             Container(
               height: 58,
-              child: Placeholder(),
+              child: TextField(),
             ),
           ],
         ),
