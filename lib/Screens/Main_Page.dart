@@ -125,6 +125,9 @@ class _MainPageState extends State<MainPage> {
                         Container(
                           height: 64,
                           width: 64,
+                          decoration: BoxDecoration(
+                            color: Colors.yellow,
+                          ),
                         ),
                       ],
                     ),
