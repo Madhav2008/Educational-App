@@ -670,7 +670,7 @@ class _MainPageState extends State<MainPage> {
                       ),
                     ],
                   ),
-                  Text('Join now')
+                  Text('Join now'),
                 ],
               ),
             ),
