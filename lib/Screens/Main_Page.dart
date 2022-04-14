@@ -297,7 +297,7 @@ class _MainPageState extends State<MainPage> {
         unselectedLabelStyle: TextStyle(
           color: Colors.grey,
         ),
-        selectedIconTheme: TextStyle(
+        selectedIconTheme: IconThemeData(
           color: Colors.grey,
         ),
         items: <BottomNavigationBarItem>[
