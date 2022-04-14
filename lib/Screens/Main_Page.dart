@@ -327,7 +327,9 @@ class _MainPageState extends State<MainPage> {
                             children: <Widget>[
                               Expanded(
                                 flex: 1,
-                                child: Container(),
+                                child: Container(
+                                  decoration: BoxDecoration(),
+                                ),
                               ),
                               Expanded(
                                 flex: 1,
