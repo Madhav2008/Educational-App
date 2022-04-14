@@ -659,7 +659,9 @@ class _MainPageState extends State<MainPage> {
             Container(
               height: 240,
               child: Column(
-                children: <Widget>[],
+                children: <Widget>[
+                  Row()
+                ],
               ),
             ),
           ],
