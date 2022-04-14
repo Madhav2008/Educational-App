@@ -119,7 +119,7 @@ class _MainPageState extends State<MainPage> {
               shrinkWrap: true,
               padding: EdgeInsets.only(
                 top: 8,
-                bottom: 7,
+                // bottom: 7,
               ),
               children: <Widget>[
                 Container(
