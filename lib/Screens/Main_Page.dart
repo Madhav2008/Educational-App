@@ -323,7 +323,7 @@ class _MainPageState extends State<MainPage> {
                           decoration: BoxDecoration(
                             color: Colors.red,
                             borderRadius: BorderRadius.circular(8),
-                            boxShadow: []
+                            boxShadow: [],
                           ),
                           child: Column(
                             children: <Widget>[
