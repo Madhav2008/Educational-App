@@ -353,7 +353,9 @@ class _MainPageState extends State<MainPage> {
                                     Text('Morning textbook'),
                                     Text('8.6'),
                                     Row(
-                                      children: <Widget>[],
+                                      children: <Widget>[
+                                        Icon(Icons.star,)
+                                      ],
                                     ),
                                   ],
                                 ),
