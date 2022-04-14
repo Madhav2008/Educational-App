@@ -300,6 +300,9 @@ class _MainPageState extends State<MainPage> {
         selectedLabelStyle: TextStyle(
           color: Colors.green,
         ),
+        unselectedIconTheme: IconThemeData(
+          color: Colors.green,
+        ),
         selectedIconTheme: IconThemeData(
           color: Colors.green,
         ),
