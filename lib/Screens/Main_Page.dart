@@ -363,7 +363,9 @@ class _MainPageState extends State<MainPage> {
                                       ),
                                       Text(
                                         '8.6',
-                                        style: TextStyle(),
+                                        style: TextStyle(
+                                          color: Colors.black,
+                                        ),
                                       ),
                                       Row(
                                         children: <Widget>[
