@@ -25,7 +25,7 @@ class _MainPageState extends State<MainPage> {
                 child: Row(
                   children: <Widget>[
                     Column(
-                      children: [],
+                      children: <Widget>[],
                     )
                   ],
                 ),
