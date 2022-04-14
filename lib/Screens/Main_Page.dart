@@ -37,7 +37,7 @@ class _MainPageState extends State<MainPage> {
                                 ),
                               ),
                               TextSpan(
-                                text: 'Choose your course',
+                                text: 'right away',
                                 style: TextStyle(
                                   color: Colors.black,
                                 ),
