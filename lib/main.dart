@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:educational_app/Screens/Main_Page.dart';
 import 'package:flutter/material.dart';
 
