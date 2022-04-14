@@ -303,7 +303,7 @@ class _MainPageState extends State<MainPage> {
             label: 'Subject',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: Icon(Icons.travel_explore_sharp,),
             label: 'Growing',
           ),
           BottomNavigationBarItem(
