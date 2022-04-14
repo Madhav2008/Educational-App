@@ -372,7 +372,7 @@ class _MainPageState extends State<MainPage> {
                                         ),
                                         Icon(
                                           Icons.star,
-                                          color: Colors.yellow,
+                                          color: Colors.grey,
                                         ),
                                       ],
                                     ),
