@@ -351,6 +351,7 @@ class _MainPageState extends State<MainPage> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[
                                     Text('Morning textbook'),
+                                    Text('8.6')
                                   ],
                                 ),
                               ),
