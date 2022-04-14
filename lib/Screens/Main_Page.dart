@@ -591,7 +591,7 @@ class _MainPageState extends State<MainPage> {
                                         ),
                                       ),
                                       Text(
-                                        '8.6',
+                                        '7.5',
                                         style: TextStyle(
                                           color: Colors.black,
                                           fontSize: 18,
