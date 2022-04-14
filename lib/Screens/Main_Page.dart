@@ -307,6 +307,7 @@ class _MainPageState extends State<MainPage> {
           color: Colors.green,
         ),
         showSelectedLabels: true,
+        type: BottomNavigationBarType.fixed,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(
