@@ -389,8 +389,9 @@ class _MainPageState extends State<MainPage> {
                                           ),
                                           child: Center(
                                             child: Icon(
-                                              Icons.favorite
+                                              Icons.favorite,
                                             ),
+                                            
                                           ),
                                         ),
                                       ],
