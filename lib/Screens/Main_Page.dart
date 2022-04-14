@@ -357,7 +357,9 @@ class _MainPageState extends State<MainPage> {
                                     children: <Widget>[
                                       Text(
                                         'Morning textbook',
-                                        style: TextStyle(),
+                                        style: TextStyle(
+                                          color: Colors.grey,
+                                        ),
                                       ),
                                       Text('8.6'),
                                       Row(
