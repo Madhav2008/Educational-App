@@ -118,7 +118,7 @@ class _MainPageState extends State<MainPage> {
               height: 240,
               child: GridView.count(
                 crossAxisCount: 2,
-                children: [],
+                children: <Widget>[],
               ),
             ),
           ],
