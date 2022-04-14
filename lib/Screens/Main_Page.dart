@@ -52,6 +52,7 @@ class _MainPageState extends State<MainPage> {
                     Spacer(),
                     Badge(
                       child: Icon(Icons.notifications),
+                      showBadge: true,
                     ),
                   ],
                 ),
