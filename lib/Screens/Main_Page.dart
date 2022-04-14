@@ -84,7 +84,9 @@ class _MainPageState extends State<MainPage> {
                 left: 24,
                 right: 24,
               ),
-              decoration: BoxDecoration(),
+              decoration: BoxDecoration(
+                color: Colors.grey[50],
+              ),
               child: TextField(),
             ),
           ],
