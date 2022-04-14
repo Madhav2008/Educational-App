@@ -15,7 +15,9 @@ class _MainPageState extends State<MainPage> {
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
-          children: <Widget>[],
+          children: <Widget>[
+            SafeArea(child: Container(),)
+          ],
         ),
       ),
     );
