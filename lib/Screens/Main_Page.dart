@@ -340,7 +340,9 @@ class _MainPageState extends State<MainPage> {
                                     color: Colors.blueGrey,
                                     borderRadius: BorderRadius.circular(8),
                                   ),
-                                  child: Center(),
+                                  child: Center(
+                                    child: Text(''),
+                                  ),
                                 ),
                               ),
                               Expanded(
