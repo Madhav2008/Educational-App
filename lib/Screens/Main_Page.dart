@@ -87,6 +87,10 @@ class _MainPageState extends State<MainPage> {
                 left: 24,
                 right: 24,
               ),
+              padding: EdgeInsets.only(
+                left: 24,
+                right: 24,
+              ),
               decoration: BoxDecoration(
                 color: Colors.grey[50],
                 borderRadius: BorderRadius.circular(16),
