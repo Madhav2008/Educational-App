@@ -349,7 +349,9 @@ class _MainPageState extends State<MainPage> {
                                 flex: 4,
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: <Widget>[],
+                                  children: <Widget>[
+                                    Text('Morning textbook')
+                                  ],
                                 ),
                               ),
                             ],
