@@ -18,6 +18,7 @@ class _MainPageState extends State<MainPage> {
           children: <Widget>[
             SafeArea(
               top: true,
+              left: true,
               child: Container(),
             )
           ],
