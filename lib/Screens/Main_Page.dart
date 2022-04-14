@@ -54,6 +54,7 @@ class _MainPageState extends State<MainPage> {
                                 text: 'right away',
                                 style: TextStyle(
                                   color: Colors.teal,
+                                  fontSize: 12,
                                 ),
                               ),
                             ],
