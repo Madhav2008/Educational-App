@@ -380,7 +380,9 @@ class _MainPageState extends State<MainPage> {
                                           size: 12,
                                         ),
                                         Spacer(),
-                                        Container(),
+                                        Container(
+                                          height: 24,
+                                        ),
                                       ],
                                     ),
                                   ],
