@@ -324,7 +324,9 @@ class _MainPageState extends State<MainPage> {
                             color: Colors.red,
                             borderRadius: BorderRadius.circular(8),
                             boxShadow: [
-                              BoxShadow(),
+                              BoxShadow(
+                                color: Colors.black.withOpacity(0.1),
+                              ),
                             ],
                           ),
                           child: Column(
