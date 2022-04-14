@@ -316,7 +316,7 @@ class _MainPageState extends State<MainPage> {
                       children: <Widget>[
                         Container(
                           width: 140,
-                          margin: EdgeInsets.only(right: 16),
+                          margin: EdgeInsets.only(right: 16,),
                           decoration: BoxDecoration(
                             color: Colors.red,
                           ),
