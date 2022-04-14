@@ -78,7 +78,7 @@ class _MainPageState extends State<MainPage> {
               ),
             ),
             Container(
-              height: 58,
+              height: 48,
               width: MediaQuery.of(context).size.width,
               margin: EdgeInsets.only(
                 left: 24,
@@ -86,6 +86,7 @@ class _MainPageState extends State<MainPage> {
               ),
               decoration: BoxDecoration(
                 color: Colors.grey[50],
+                borderRadius: BorderRadius.circular(16)
               ),
               child: TextField(),
             ),
