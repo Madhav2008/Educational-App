@@ -306,6 +306,7 @@ class _MainPageState extends State<MainPage> {
         selectedIconTheme: IconThemeData(
           color: Colors.green,
         ),
+        showSelectedLabels: true,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(
