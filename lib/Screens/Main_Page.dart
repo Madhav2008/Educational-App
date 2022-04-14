@@ -348,7 +348,7 @@ class _MainPageState extends State<MainPage> {
                               Expanded(
                                 flex: 4,
                                 child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
+                                  padding: EdgeInsets.all(8.0),
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: <Widget>[
