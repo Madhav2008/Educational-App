@@ -385,6 +385,7 @@ class _MainPageState extends State<MainPage> {
                                           width: 24,
                                           decoration: BoxDecoration(
                                             color: Colors.red,
+                                            shape: BoxShape.circle
                                           ),
                                         ),
                                       ],
