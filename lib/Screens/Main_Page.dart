@@ -387,6 +387,7 @@ class _MainPageState extends State<MainPage> {
                                             color: Colors.red,
                                             shape: BoxShape.circle,
                                           ),
+                                          child: Center()
                                         ),
                                       ],
                                     ),
