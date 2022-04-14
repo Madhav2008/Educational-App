@@ -288,6 +288,7 @@ class _MainPageState extends State<MainPage> {
             Container(
               height: 240,
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[],
               ),
             ),
