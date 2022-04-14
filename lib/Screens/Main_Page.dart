@@ -329,7 +329,7 @@ class _MainPageState extends State<MainPage> {
                                 flex: 1,
                                 child: Container(
                                   decoration: BoxDecoration(
-                                    color: Colors.blue,
+                                    color: Colors.blueGrey,
                                   ),
                                 ),
                               ),
