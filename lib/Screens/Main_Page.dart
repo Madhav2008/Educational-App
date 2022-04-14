@@ -77,6 +77,7 @@ class _MainPageState extends State<MainPage> {
                 ),
               ),
             ),
+            SizedBox(height: 24,),
             Container(
               height: 48,
               width: MediaQuery.of(context).size.width,
