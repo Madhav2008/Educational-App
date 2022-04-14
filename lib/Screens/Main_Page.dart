@@ -116,6 +116,7 @@ class _MainPageState extends State<MainPage> {
             ),
             Container(
               height: 240,
+              child: GridView.count(crossAxisCount: 2),
             ),
           ],
         ),
