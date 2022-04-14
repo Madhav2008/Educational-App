@@ -330,6 +330,7 @@ class _MainPageState extends State<MainPage> {
                                 child: Container(
                                   decoration: BoxDecoration(
                                     color: Colors.blueGrey,
+                                    borderRadius: BorderRadius.circular(),
                                   ),
                                 ),
                               ),
