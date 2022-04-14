@@ -329,6 +329,10 @@ class _MainPageState extends State<MainPage> {
                                 flex: 1,
                                 child: Container(),
                               ),
+                              Expanded(
+                                flex: 1,
+                                child: Container(),
+                              ),
                             ],
                           ),
                         ),
