@@ -301,7 +301,7 @@ class _MainPageState extends State<MainPage> {
           color: Colors.green,
         ),
         unselectedIconTheme: IconThemeData(
-          color: Colors.green,
+          color: Colors.grey,
         ),
         selectedIconTheme: IconThemeData(
           color: Colors.green,
