@@ -294,6 +294,9 @@ class _MainPageState extends State<MainPage> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: 0,
+        unselectedLabelStyle: TextStyle(
+          color: Colors.grey,
+        ),
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(
