@@ -292,7 +292,7 @@ class _MainPageState extends State<MainPage> {
                 children: <Widget>[
                   Row(
                     children: <Widget>[
-                      Text(''),
+                      Text('Recommended course'),
                     ],
                   ),
                 ],
