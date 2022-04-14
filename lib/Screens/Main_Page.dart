@@ -675,6 +675,9 @@ class _MainPageState extends State<MainPage> {
                       Spacer(),
                       Text(
                         'view all >',
+                        style: TextStyle(
+                          fontSize: 18
+                        ),
                       ),
                     ],
                   ),
