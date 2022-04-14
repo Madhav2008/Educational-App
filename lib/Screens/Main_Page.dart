@@ -294,7 +294,7 @@ class _MainPageState extends State<MainPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Padding(
-                    padding: EdgeInsets.all(8.0),
+                    padding: EdgeInsets.only(right: 24.0),
                     child: Row(
                       children: <Widget>[
                         Text('Recommended course'),
