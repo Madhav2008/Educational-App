@@ -347,57 +347,60 @@ class _MainPageState extends State<MainPage> {
                               ),
                               Expanded(
                                 flex: 4,
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: <Widget>[
-                                    Text('Morning textbook'),
-                                    Text('8.6'),
-                                    Row(
-                                      children: <Widget>[
-                                        Icon(
-                                          Icons.star,
-                                          color: Colors.yellow,
-                                          size: 12,
-                                        ),
-                                        Icon(
-                                          Icons.star,
-                                          color: Colors.yellow,
-                                          size: 12,
-                                        ),
-                                        Icon(
-                                          Icons.star,
-                                          color: Colors.yellow,
-                                          size: 12,
-                                        ),
-                                        Icon(
-                                          Icons.star,
-                                          color: Colors.yellow,
-                                          size: 12,
-                                        ),
-                                        Icon(
-                                          Icons.star,
-                                          color: Colors.grey,
-                                          size: 12,
-                                        ),
-                                        Spacer(),
-                                        Container(
-                                          height: 24,
-                                          width: 24,
-                                          decoration: BoxDecoration(
-                                            color: Colors.red,
-                                            shape: BoxShape.circle,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: <Widget>[
+                                      Text('Morning textbook'),
+                                      Text('8.6'),
+                                      Row(
+                                        children: <Widget>[
+                                          Icon(
+                                            Icons.star,
+                                            color: Colors.yellow,
+                                            size: 12,
                                           ),
-                                          child: Center(
-                                            child: Icon(
-                                              Icons.favorite,
-                                              size: 13,
-                                              color: Colors.white,
+                                          Icon(
+                                            Icons.star,
+                                            color: Colors.yellow,
+                                            size: 12,
+                                          ),
+                                          Icon(
+                                            Icons.star,
+                                            color: Colors.yellow,
+                                            size: 12,
+                                          ),
+                                          Icon(
+                                            Icons.star,
+                                            color: Colors.yellow,
+                                            size: 12,
+                                          ),
+                                          Icon(
+                                            Icons.star,
+                                            color: Colors.grey,
+                                            size: 12,
+                                          ),
+                                          Spacer(),
+                                          Container(
+                                            height: 24,
+                                            width: 24,
+                                            decoration: BoxDecoration(
+                                              color: Colors.red,
+                                              shape: BoxShape.circle,
+                                            ),
+                                            child: Center(
+                                              child: Icon(
+                                                Icons.favorite,
+                                                size: 13,
+                                                color: Colors.white,
+                                              ),
                                             ),
                                           ),
-                                        ),
-                                      ],
-                                    ),
-                                  ],
+                                        ],
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ],
