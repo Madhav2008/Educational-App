@@ -100,6 +100,7 @@ class _MainPageState extends State<MainPage> {
                   icon: Icon(
                     Icons.search,
                     size: 14,
+                    color: Colors.grey,
                   ),
                   hintText: "Search for your grade, course, training type...",
                   hintStyle: TextStyle(
