@@ -27,6 +27,7 @@ class _MainPageState extends State<MainPage> {
                     Column(
                       children: <Widget>[
                         Text('Home Page'),
+                        Text('Choose your course'),
                       ],
                     )
                   ],
