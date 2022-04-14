@@ -323,6 +323,7 @@ class _MainPageState extends State<MainPage> {
                           decoration: BoxDecoration(
                             color: Colors.red,
                           ),
+                          child: Column(),
                         ),
                       ],
                     ),
