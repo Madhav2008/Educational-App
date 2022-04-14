@@ -20,7 +20,9 @@ class _MainPageState extends State<MainPage> {
               top: true,
               left: true,
               right: true,
-              child: Container(),
+              child: Container(
+                height: 80,
+              ),
             )
           ],
         ),
