@@ -353,7 +353,7 @@ class _MainPageState extends State<MainPage> {
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: <Widget>[
-                                      Text('Morning textbook'),
+                                      Text('Morning textbook', style: TextStyle(),),
                                       Text('8.6'),
                                       Row(
                                         children: <Widget>[
