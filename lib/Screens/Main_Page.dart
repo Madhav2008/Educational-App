@@ -130,7 +130,9 @@ class _MainPageState extends State<MainPage> {
                             shape: BoxShape.circle,
                           ),
                         ),
-                        SizedBox(height: 8,),
+                        SizedBox(
+                          height: 8,
+                        ),
                         Text('Category'),
                       ],
                     ),
