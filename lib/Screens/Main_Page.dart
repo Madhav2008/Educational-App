@@ -72,7 +72,6 @@ class _MainPageState extends State<MainPage> {
                         color: Colors.teal,
                       ),
                       showBadge: true,
-                      badgeContent: Text(' '),
                     ),
                   ],
                 ),
