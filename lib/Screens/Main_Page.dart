@@ -293,12 +293,15 @@ class _MainPageState extends State<MainPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  Row(
-                    children: <Widget>[
-                      Text('Recommended course'),
-                      Spacer(),
-                      Text('More'),
-                    ],
+                  Padding(
+                    padding: EdgeInsets.all(8.0),
+                    child: Row(
+                      children: <Widget>[
+                        Text('Recommended course'),
+                        Spacer(),
+                        Text('More'),
+                      ],
+                    ),
                   ),
                 ],
               ),
