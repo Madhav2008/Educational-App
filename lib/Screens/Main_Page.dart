@@ -33,7 +33,7 @@ class _MainPageState extends State<MainPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Text('Home Page'),
+                        Text('Home Page',style: TextStyle(),),
                         RichText(
                           text: TextSpan(
                             children: [
