@@ -662,6 +662,7 @@ class _MainPageState extends State<MainPage> {
               ),
               height: 240,
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Row(
                     children: <Widget>[
