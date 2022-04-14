@@ -322,7 +322,7 @@ class _MainPageState extends State<MainPage> {
                           ),
                           decoration: BoxDecoration(
                             color: Colors.white,
-                            borderRadius: BorderRadius.circular(8),
+                            borderRadius: BorderRadius.circular(4),
                             boxShadow: [
                               BoxShadow(
                                 color: Colors.black.withOpacity(0.1),
@@ -338,7 +338,7 @@ class _MainPageState extends State<MainPage> {
                                 child: Container(
                                   decoration: BoxDecoration(
                                     color: Colors.blueGrey,
-                                    borderRadius: BorderRadius.circular(8),
+                                    borderRadius: BorderRadius.circular(4),
                                   ),
                                   child: Center(
                                     child: Text('Place Your Image'),
