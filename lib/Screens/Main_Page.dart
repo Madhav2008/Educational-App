@@ -53,6 +53,7 @@ class _MainPageState extends State<MainPage> {
                     Badge(
                       child: Icon(Icons.notifications),
                       showBadge: true,
+                      badgeContent: Text('1'),
                     ),
                   ],
                 ),
