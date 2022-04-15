@@ -290,7 +290,7 @@ class _MainPageState extends State<MainPage>
                         ),
                         child: Center(
                           child: Icon(
-                            Icons.leaderboard_rounded,
+                            Icons.leaderboard_rounded,color: Colors.white,
                           ),
                         ),
                       ),
