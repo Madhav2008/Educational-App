@@ -1066,6 +1066,7 @@ class _MainPageState extends State<MainPage> {
                     ),
                   ),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
                         height: 4,
