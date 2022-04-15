@@ -154,7 +154,7 @@ class _MainPageState extends State<MainPage>
                           ],
                         ),
                         child: Center(
-                          child: Icon(Icons.category),
+                          child: Icon(Icons.category,),
                         ),
                       ),
                       SizedBox(
