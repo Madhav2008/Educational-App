@@ -1147,6 +1147,7 @@ class _MainPageState extends State<MainPage>
                   fontSize: 20,
                 ),
                 indicatorSize: TabBarIndicatorSize.label,
+                indicatorColor: Colors.teal,
                 tabs: <Widget>[
                   Tab(
                     text: 'Popular',
