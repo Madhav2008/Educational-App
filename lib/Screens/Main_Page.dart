@@ -1135,6 +1135,7 @@ class _MainPageState extends State<MainPage>
                 ],
               ),
             ),
+            SizedBox(),
             Container(
               height: 32,
               child: TabBar(
