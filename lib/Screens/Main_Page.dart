@@ -1061,7 +1061,9 @@ class _MainPageState extends State<MainPage>
                   ),
                   Container(
                     height: 150,
-                    margin: EdgeInsets.symmetric(horizontal: 16,),
+                    margin: EdgeInsets.symmetric(
+                      horizontal: 16,
+                    ),
                     decoration: BoxDecoration(
                       color: Colors.green,
                       borderRadius: BorderRadius.circular(
