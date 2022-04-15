@@ -1149,7 +1149,7 @@ class _MainPageState extends State<MainPage>
                 indicatorSize: TabBarIndicatorSize.label,
                 indicatorColor: Colors.teal,
                 indicator: UnderlineTabIndicator(
-                  borderSide: BorderSide(),
+                  borderSide: BorderSide(width: 2.0),
                 ),
                 tabs: <Widget>[
                   Tab(
