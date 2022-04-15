@@ -1211,7 +1211,9 @@ class _MainPageState extends State<MainPage>
                             Expanded(
                               flex: 3,
                               child: Container(
-                                decoration: BoxDecoration(),
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(8)
+                                ),
                               ),
                             ),
                             Expanded(
