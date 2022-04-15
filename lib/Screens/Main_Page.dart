@@ -1192,7 +1192,7 @@ class _MainPageState extends State<MainPage>
                 children: [
                   Placeholder(),
                   Placeholder(),
-                  Placeholder()
+                  Placeholder(),
                 ],
               ),
             ),
