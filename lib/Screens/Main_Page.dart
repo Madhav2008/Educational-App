@@ -1315,7 +1315,106 @@ class _MainPageState extends State<MainPage>
                       ? Center(
                           child: CircularProgressIndicator(),
                         )
-                      : Placeholder(),
+                      : ListView.separated(
+                    shrinkWrap: true,
+                    itemBuilder: (context, index) {
+                      return Container(
+                        height: 92,
+                        child: Row(
+                          children: <Widget>[
+                            Expanded(
+                              flex: 4,
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(12),
+                                  color: Colors.red[100],
+                                ),
+                                child: Center(
+                                  child: Text('Place Image'),
+                                ),
+                              ),
+                            ),
+                            Expanded(
+                              flex: 11,
+                              child: Padding(
+                                padding: EdgeInsets.symmetric(
+                                  vertical: 8,
+                                  horizontal: 16,
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: <Widget>[
+                                    Text(
+                                      'How hard is it for humans to climb Mount Everest?',
+                                      style: TextStyle(
+                                        fontSize: 13,
+                                      ),
+                                    ),
+                                    Spacer(),
+                                    Row(
+                                      children: <Widget>[
+                                        Text(
+                                          'Record',
+                                          style: TextStyle(
+                                            fontSize: 12,
+                                            color: Colors.grey,
+                                          ),
+                                        ),
+                                        Spacer(),
+                                        Icon(
+                                          Icons.favorite,
+                                          size: 12,
+                                          color: Colors.grey,
+                                        ),
+                                        SizedBox(
+                                          width: 8,
+                                        ),
+                                        Text(
+                                          '122',
+                                          style: TextStyle(
+                                            fontSize: 12,
+                                            color: Colors.grey,
+                                          ),
+                                        ),
+                                        SizedBox(
+                                          width: 16,
+                                        ),
+                                        Icon(
+                                          Icons.message,
+                                          size: 12,
+                                          color: Colors.grey,
+                                        ),
+                                        SizedBox(
+                                          width: 8,
+                                        ),
+                                        Text(
+                                          '98',
+                                          style: TextStyle(
+                                            fontSize: 12,
+                                            color: Colors.grey,
+                                          ),
+                                        ),
+                                        Spacer(),
+                                        Icon(
+                                          Icons.more_horiz,
+                                          size: 12,
+                                          color: Colors.grey,
+                                        ),
+                                      ],
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                      );
+                    },
+                    itemCount: 5,
+                    separatorBuilder: (BuildContext context, int index) {
+                      return Divider();
+                    },
+                  ),
                   Placeholder(),
                   Placeholder(),
                   Placeholder(),
