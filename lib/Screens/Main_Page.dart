@@ -1228,7 +1228,8 @@ class _MainPageState extends State<MainPage>
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[
                                     Text(
-                                      'How hard is it for humans to climb Mount Everest?',style:TextStyle(),
+                                      'How hard is it for humans to climb Mount Everest?',
+                                      style: TextStyle(),
                                     ),
                                     Spacer(),
                                     Row(
