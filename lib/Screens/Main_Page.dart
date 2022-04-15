@@ -14,6 +14,7 @@ class _MainPageState extends State<MainPage>
     with SingleTickerProviderStateMixin {
   late TabController _tabController;
   int currentIndex = 0;
+  bool dummyLoading = false;
 
   @override
   void initState() {
