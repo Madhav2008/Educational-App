@@ -694,6 +694,7 @@ class _MainPageState extends State<MainPage> {
                     ),
                     decoration: BoxDecoration(
                       color: Colors.green,
+                      borderRadius: BorderRadius.circular(16)
                     ),
                   ),
                 ],
