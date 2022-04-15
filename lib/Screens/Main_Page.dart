@@ -1230,6 +1230,7 @@ class _MainPageState extends State<MainPage>
                                     Text(
                                       'How hard is it for humans to climb Mount Everest?',
                                     ),
+                                    Spacer()
                                   ],
                                 ),
                               ),
