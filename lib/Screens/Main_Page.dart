@@ -1155,7 +1155,7 @@ class _MainPageState extends State<MainPage>
                       });
                     });
                   } else {
-                    setState(() {});
+                    setState(() {dummyLoading = false;});
                   }
                   setState(() {
                     currentIndex = newIndex;
