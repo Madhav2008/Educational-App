@@ -1203,7 +1203,8 @@ class _MainPageState extends State<MainPage>
                     itemBuilder: (context, index) {
                       return Container();
                     },
-                    itemCount: null, separatorBuilder: (BuildContext context, int index) {  },
+                    itemCount: null,
+                    separatorBuilder: (BuildContext context, int index) {},
                   ),
                   Placeholder(),
                   Placeholder(),
