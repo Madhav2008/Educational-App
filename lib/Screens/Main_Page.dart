@@ -1088,6 +1088,14 @@ class _MainPageState extends State<MainPage>
                           color: Colors.teal,
                           borderRadius: BorderRadius.circular(4),
                         ),
+                        child: Center(
+                    child: Text(
+                      'Place Your Image',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),,
                       ),
                       SizedBox(
                         width: 8,
