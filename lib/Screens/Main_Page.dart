@@ -1152,7 +1152,7 @@ class _MainPageState extends State<MainPage>
                     currentIndex = newIndex;
                     if (newIndex == 1) {
                       Future.delayed(
-                        Duration(seconds: 3),
+                        Duration(seconds: 3),(){}
                       );
                     }
                   });
