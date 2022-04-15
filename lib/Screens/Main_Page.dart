@@ -1350,7 +1350,7 @@ class _MainPageState extends State<MainPage>
                                             CrossAxisAlignment.start,
                                         children: <Widget>[
                                           Text(
-                                            'How hard is it for humans to climb Mount Everest?',
+                                            'What is used',
                                             style: TextStyle(
                                               fontSize: 13,
                                             ),
