@@ -191,6 +191,7 @@ class _MainPageState extends State<MainPage>
                           child: Icon(
                             Icons.play_circle_fill,
                             color: Colors.white,
+                            size: 30
                           ),
                         ),
                       ),
