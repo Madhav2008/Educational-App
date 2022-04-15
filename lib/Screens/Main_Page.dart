@@ -1139,7 +1139,7 @@ class _MainPageState extends State<MainPage>
               height: 32,
               child: TabBar(
                 tabs: <Widget>[
-                  Tab(text: 'Popular'),
+                  Tab(text: 'Popular',),
                 ],
               ),
             ),
