@@ -1150,13 +1150,6 @@ class _MainPageState extends State<MainPage>
                 onTap: (newIndex) {
                   setState(() {
                     currentIndex = newIndex;
-                    if (newIndex == 1) {
-                      Future.delayed(Duration(seconds: 3), () {
-                        setState(() {
-                          dummyLoading = true;
-                        });
-                      });
-                    }
                   });
                 },
                 unselectedLabelStyle: TextStyle(
