@@ -1095,7 +1095,7 @@ class _MainPageState extends State<MainPage>
                         color: Colors.white,
                       ),
                     ),
-                  ),,
+                  ),
                       ),
                       SizedBox(
                         width: 8,
