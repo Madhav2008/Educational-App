@@ -1138,6 +1138,7 @@ class _MainPageState extends State<MainPage>
             Container(
               height: 32,
               child: TabBar(
+                unselectedLabelStyle: TextStyle(),
                 tabs: <Widget>[
                   Tab(
                     text: 'Popular',
