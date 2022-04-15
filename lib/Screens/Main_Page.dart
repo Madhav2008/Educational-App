@@ -1078,14 +1078,6 @@ class _MainPageState extends State<MainPage>
                       ],
                     ),
                   ),
-                  Center(
-                    child: Text(
-                      'Place Your Image',
-                      style: TextStyle(
-                        color: Colors.white,
-                      ),
-                    ),
-                  ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
