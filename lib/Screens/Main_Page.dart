@@ -305,7 +305,7 @@ class _MainPageState extends State<MainPage> {
                           ),
                         ),
                         Spacer(),
-                        Text('More'),
+                        Text('More', style: TextStyle(),),
                       ],
                     ),
                   ),
