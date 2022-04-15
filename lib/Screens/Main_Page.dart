@@ -1074,7 +1074,9 @@ class _MainPageState extends State<MainPage> {
                           color: Colors.teal,
                         ),
                       ),
-                      Container(height: 4,),
+                      Container(
+                        height: 4,
+                      ),
                       Container(),
                       Container(),
                     ],
