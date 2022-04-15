@@ -1210,7 +1210,7 @@ class _MainPageState extends State<MainPage>
                           children: <Widget>[
                             Expanded(
                               flex: 3,
-                              child: Placeholder(),
+                              child: Container(),
                             ),
                             Expanded(
                               flex: 7,
