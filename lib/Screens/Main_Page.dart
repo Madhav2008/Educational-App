@@ -687,7 +687,9 @@ class _MainPageState extends State<MainPage> {
                       fontSize: 12,
                     ),
                   ),
-                  Container(),
+                  Container(
+                    height: 180,
+                  ),
                 ],
               ),
             ),
