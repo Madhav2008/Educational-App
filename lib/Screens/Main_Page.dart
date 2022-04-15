@@ -320,7 +320,7 @@ class _MainPageState extends State<MainPage> {
                   ),
                   Text(
                     'you may also like',
-                    style: TextStyle(fontSize:12),
+                    style: TextStyle(fontSize: 12),
                   ),
                   SizedBox(
                     height: 16,
