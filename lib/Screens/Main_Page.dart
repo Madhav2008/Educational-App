@@ -1203,6 +1203,7 @@ class _MainPageState extends State<MainPage>
                     itemBuilder: (context, index) {
                       return Container(
                         height: 84,
+                        decoration: BoxDecoration(),
                       );
                     },
                     itemCount: 5,
