@@ -1200,8 +1200,8 @@ class _MainPageState extends State<MainPage>
                 children: [
                   ListView.separated(
                     shrinkWrap: true,
-                    itemBuilder: (context, index){
-                      return Container()
+                    itemBuilder: (context, index) {
+                      return Container();
                     },
                   ),
                   Placeholder(),
