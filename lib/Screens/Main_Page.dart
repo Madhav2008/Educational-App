@@ -1157,7 +1157,6 @@ class _MainPageState extends State<MainPage>
                   } else {setState(() {
                     
                   });
-                    dummyLoading = false;
                   }
                   setState(() {
                     currentIndex = newIndex;
