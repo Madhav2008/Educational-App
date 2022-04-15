@@ -308,7 +308,7 @@ class _MainPageState extends State<MainPage> {
                         Text(
                           'More',
                           style: TextStyle(
-                            fontSize: 12,
+                            fontSize: 12,color: Colors.grey
                           ),
                         ),
                       ],
