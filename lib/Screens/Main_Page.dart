@@ -1207,7 +1207,7 @@ class _MainPageState extends State<MainPage>
                           color: Colors.blue,
                         ),
                         child: Row(
-                          children: [],
+                          children: <Widget>[],
                         ),
                       );
                     },
