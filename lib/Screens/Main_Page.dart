@@ -1247,7 +1247,7 @@ class _MainPageState extends State<MainPage>
                                         Icon(
                                           Icons.favorite,
                                           size: 12,
-                                          color: Colors.grey
+                                          color: Colors.grey,
                                         ),
                                         Text(
                                           '122',
