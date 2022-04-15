@@ -1234,7 +1234,7 @@ class _MainPageState extends State<MainPage>
                                     Row(
                                       children: <Widget>[
                                         Text(
-                                          'Record',
+                                          'Record',style: TextStyle(),
                                         ),
                                         Spacer(),
                                         Icon(
