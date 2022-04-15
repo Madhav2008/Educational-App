@@ -1222,7 +1222,7 @@ class _MainPageState extends State<MainPage>
                               child: Padding(
                                 padding: EdgeInsets.all(8.0),
                                 child: Column(
-                                  children: [],
+                                  children: <Widget>[],
                                 ),
                               ),
                             )
