@@ -1151,7 +1151,7 @@ class _MainPageState extends State<MainPage>
                 indicator: UnderlineTabIndicator(
                   borderSide: BorderSide(
                     width: 2,
-                    color: Colors.white
+                    color: Colors.white,
                   ),
                 ),
                 tabs: <Widget>[
