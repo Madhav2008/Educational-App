@@ -702,7 +702,7 @@ class _MainPageState extends State<MainPage> {
                       ),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.blueGrey[100]
+                          color: Colors.blueGrey.shade100
                         ),
                       ],
                     ),
