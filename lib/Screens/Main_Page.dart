@@ -1244,7 +1244,7 @@ class _MainPageState extends State<MainPage>
                                           '122',
                                         ),
                                         Spacer(),
-                                        Icon(Icons.message),
+                                        Icon(Icons.message,),
                                         Text('98'),
                                         Spacer(),
                                         Icon(Icons.more_horiz),
