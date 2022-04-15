@@ -673,7 +673,10 @@ class _MainPageState extends State<MainPage> {
                       Spacer(),
                       Text(
                         'view all >',
-                        style: TextStyle(color: Colors.grey, fontSize: 18,),
+                        style: TextStyle(
+                          color: Colors.grey,
+                          fontSize: 18,
+                        ),
                       ),
                     ],
                   ),
