@@ -1241,9 +1241,7 @@ class _MainPageState extends State<MainPage>
                                         Icon(
                                           Icons.favorite,
                                         ),
-                                        Text(
-                                          '122',style: TextStyle()
-                                        ),
+                                        Text('122', style: TextStyle()),
                                         Spacer(),
                                         Icon(
                                           Icons.message,
