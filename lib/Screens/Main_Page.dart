@@ -1261,7 +1261,7 @@ class _MainPageState extends State<MainPage>
                                         ),
                                         Icon(
                                           Icons.message,
-                                          size: 12,
+                                          size: 12,color: Colors.grey
                                         ),
                                         Text(
                                           '98',
