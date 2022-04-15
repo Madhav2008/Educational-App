@@ -153,6 +153,7 @@ class _MainPageState extends State<MainPage>
                             ),
                           ],
                         ),
+                        child: Center(),
                       ),
                       SizedBox(
                         height: 8,
