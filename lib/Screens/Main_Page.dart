@@ -1200,7 +1200,6 @@ class _MainPageState extends State<MainPage>
                 children: [
                   ListView(
                     shrinkWrap: true,
-                    children: <Widget>[],
                   ),
                   Placeholder(),
                   Placeholder(),
