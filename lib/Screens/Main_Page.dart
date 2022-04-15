@@ -1229,7 +1229,7 @@ class _MainPageState extends State<MainPage>
                                   children: <Widget>[
                                     Text(
                                       'How hard is it for humans to climb Mount Everest?',
-                                      style: TextStyle(fontSize: 13),
+                                      style: TextStyle(fontSize: 13,),
                                     ),
                                     Spacer(),
                                     Row(
