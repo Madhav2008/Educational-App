@@ -1202,7 +1202,7 @@ class _MainPageState extends State<MainPage>
                     shrinkWrap: true,
                     itemBuilder: (context, index) {
                       return Container(
-                        height: 84,
+                        height: 92,
                         decoration: BoxDecoration(
                           color: Colors.blue,
                         ),
