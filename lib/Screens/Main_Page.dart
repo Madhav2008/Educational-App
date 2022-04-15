@@ -1142,6 +1142,7 @@ class _MainPageState extends State<MainPage>
                   color: Colors.grey,
                   fontSize: 16,
                 ),
+                labelStyle: TextStyle(),
                 tabs: <Widget>[
                   Tab(
                     text: 'Popular',
