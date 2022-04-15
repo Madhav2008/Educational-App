@@ -1150,7 +1150,7 @@ class _MainPageState extends State<MainPage>
                 onTap: (newIndex) {
                   setState(() {
                     currentIndex = newIndex;
-                    if (newIndex == 1) {Future.delayed(Duration(seconds: 2))}
+                    if (newIndex == 1) {Future.delayed(Duration(seconds: 2),)}
                   });
                 },
                 unselectedLabelStyle: TextStyle(
