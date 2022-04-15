@@ -1204,7 +1204,7 @@ class _MainPageState extends State<MainPage>
                       return Container(
                         height: 84,
                         decoration: BoxDecoration(
-                          color: Colors.blue
+                          color: Colors.blue,
                         ),
                       );
                     },
