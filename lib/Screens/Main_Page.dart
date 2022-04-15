@@ -1186,6 +1186,7 @@ class _MainPageState extends State<MainPage>
                 right: 24,
                 top: 8,
               ),
+              height: 380,
             ),
           ],
         ),
