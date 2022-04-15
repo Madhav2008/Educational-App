@@ -692,7 +692,9 @@ class _MainPageState extends State<MainPage> {
                     margin: EdgeInsets.symmetric(
                       vertical: 16,
                     ),
-                    decoration: BoxDecoration(),
+                    decoration: BoxDecoration(
+                      color: Colors.green
+                    ),
                   ),
                 ],
               ),
