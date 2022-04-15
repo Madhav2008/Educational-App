@@ -259,6 +259,7 @@ class _MainPageState extends State<MainPage>
                           child: Icon(
                             Icons.store,
                             color: Colors.white,
+                            size: 30
                           ),
                         ),
                       ),
