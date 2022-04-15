@@ -1253,7 +1253,9 @@ class _MainPageState extends State<MainPage>
                                             fontSize: 12,
                                           ),
                                         ),
-                                        SizedBox(),
+                                        SizedBox(
+                                          width: 16,
+                                        ),
                                         Icon(
                                           Icons.message,
                                           size: 12,
