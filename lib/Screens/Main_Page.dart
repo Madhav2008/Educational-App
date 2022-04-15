@@ -209,7 +209,7 @@ class _MainPageState extends State<MainPage>
                         ),
                         child: Center(
                           child: Icon(
-                            Icons.assignment,
+                            Icons.assignment,color: Colors.white,
                           ),
                         ),
                       ),
