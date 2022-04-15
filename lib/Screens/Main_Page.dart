@@ -1212,7 +1212,7 @@ class _MainPageState extends State<MainPage>
                               flex: 3,
                               child: Container(
                                 decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(12)
+                                  borderRadius: BorderRadius.circular(12),
                                 ),
                               ),
                             ),
