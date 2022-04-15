@@ -1068,7 +1068,9 @@ class _MainPageState extends State<MainPage> {
                   Center(
                     child: Text(
                       'Place Your Image',
-                      style: TextStyle(color: Colors.white,),
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
                     ),
                   ),
                   Row(
