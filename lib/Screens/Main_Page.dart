@@ -1142,9 +1142,6 @@ class _MainPageState extends State<MainPage>
                   Tab(
                     text: 'Popular',
                   ),
-                  Tab(
-                    text: 'Popular',
-                  ),
                 ],
               ),
             ),
