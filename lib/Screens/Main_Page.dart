@@ -322,7 +322,7 @@ class _MainPageState extends State<MainPage> {
                     'you may also like',
                     style: TextStyle(
                       fontSize: 12,
-                      color: Colors.grey
+                      color: Colors.grey,
                     ),
                   ),
                   SizedBox(
