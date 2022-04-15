@@ -1226,6 +1226,7 @@ class _MainPageState extends State<MainPage>
                                 padding: EdgeInsets.only(
                                   top: 8,
                                   bottom: 8,
+                                  right: 16
                                 ),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
