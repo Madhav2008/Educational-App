@@ -682,7 +682,9 @@ class _MainPageState extends State<MainPage> {
                       ),
                     ],
                   ),
-                  SizedBox(),
+                  SizedBox(
+                    height: 8,
+                  ),
                   Text(
                     'Join now',
                     style: TextStyle(
