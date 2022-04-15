@@ -1232,7 +1232,9 @@ class _MainPageState extends State<MainPage>
                                     ),
                                     Spacer(),
                                     Row(
-                                      children: <Widget>[],
+                                      children: <Widget>[
+                                        Text('')
+                                      ],
                                     ),
                                   ],
                                 ),
