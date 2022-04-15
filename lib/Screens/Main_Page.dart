@@ -318,7 +318,7 @@ class _MainPageState extends State<MainPage> {
                   SizedBox(
                     height: 4,
                   ),
-                  Text('you may also like'),
+                  Text('you may also like',style: TextStyle(),),
                   SizedBox(
                     height: 16,
                   ),
