@@ -1059,6 +1059,7 @@ class _MainPageState extends State<MainPage>
                       fontSize: 12,
                     ),
                   ),
+                  SizedBox()
                   Container(
                     height: 150,
                     decoration: BoxDecoration(
