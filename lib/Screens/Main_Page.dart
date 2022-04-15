@@ -701,7 +701,9 @@ class _MainPageState extends State<MainPage> {
                         16,
                       ),
                       boxShadow: [
-                        BoxShadow(),
+                        BoxShadow(
+                          color: Colors.blueGrey
+                        ),
                       ],
                     ),
                   ),
