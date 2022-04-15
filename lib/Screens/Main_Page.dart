@@ -1206,7 +1206,6 @@ class _MainPageState extends State<MainPage>
                     itemCount: 5,
                     separatorBuilder: (BuildContext context, int index) {
                       return Divider(
-                        height: 84,
                       );
                     },
                   ),
