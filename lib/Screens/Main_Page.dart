@@ -1249,7 +1249,9 @@ class _MainPageState extends State<MainPage>
                                           size: 12,
                                           color: Colors.grey,
                                         ),
-                                        SizedBox(width: 8,),
+                                        SizedBox(
+                                          width: 8,
+                                        ),
                                         Text(
                                           '122',
                                           style: TextStyle(
