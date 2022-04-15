@@ -1072,7 +1072,7 @@ class _MainPageState extends State<MainPage> {
                         width: 24,
                         decoration: BoxDecoration(
                           color: Colors.teal,
-                          borderRadius: BorderRadius.circular(8),
+                          borderRadius: BorderRadius.circular(4),
                         ),
                       ),
                       Container(
