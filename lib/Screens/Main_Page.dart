@@ -668,17 +668,12 @@ class _MainPageState extends State<MainPage> {
                     children: <Widget>[
                       Text(
                         "Today's event",
-                        style: TextStyle(
-                          fontSize: 18
-                        ),
+                        style: TextStyle(fontSize: 18),
                       ),
                       Spacer(),
                       Text(
                         'view all >',
-                        style: TextStyle(
-                          color: Colors.grey,
-                          fontSize: 18
-                        ),
+                        style: TextStyle(color: Colors.grey, fontSize: 18),
                       ),
                     ],
                   ),
@@ -692,6 +687,7 @@ class _MainPageState extends State<MainPage> {
                       fontSize: 12,
                     ),
                   ),
+                  Container()
                 ],
               ),
             ),
