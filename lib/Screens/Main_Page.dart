@@ -1223,12 +1223,7 @@ class _MainPageState extends State<MainPage>
                             Expanded(
                               flex: 11,
                               child: Padding(
-                                padding: EdgeInsets.only(
-                                  top: 8,
-                                  bottom: 8,
-                                  right: 16,
-                                  left: 16,
-                                ),
+                                padding: EdgeInsets.symmetric(),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[
