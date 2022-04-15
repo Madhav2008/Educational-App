@@ -1214,7 +1214,7 @@ class _MainPageState extends State<MainPage>
                             ),
                             Expanded(
                               flex: 7,
-                              child: Placeholder(),
+                              child: Container(),
                             )
                           ],
                         ),
