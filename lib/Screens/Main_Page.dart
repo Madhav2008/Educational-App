@@ -1199,6 +1199,7 @@ class _MainPageState extends State<MainPage>
                 controller: _tabController,
                 children: [
                   ListView(
+                    shrinkWrap: true,
                     children: <Widget>[],
                   ),
                   Placeholder(),
