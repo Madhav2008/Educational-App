@@ -1198,7 +1198,9 @@ class _MainPageState extends State<MainPage>
               child: TabBarView(
                 controller: _tabController,
                 children: [
-                  ListView(),
+                  ListView(
+                    children: [],
+                  ),
                   Placeholder(),
                   Placeholder(),
                   Placeholder(),
