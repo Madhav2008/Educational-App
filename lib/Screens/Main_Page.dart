@@ -1066,7 +1066,10 @@ class _MainPageState extends State<MainPage> {
                     ),
                   ),
                   Center(
-                    child: Text('Place Your Image',style: TextStyle(),),
+                    child: Text(
+                      'Place Your Image',
+                      style: TextStyle(),
+                    ),
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
