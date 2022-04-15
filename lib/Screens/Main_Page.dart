@@ -1148,6 +1148,13 @@ class _MainPageState extends State<MainPage>
               height: 32,
               child: TabBar(
                 onTap: (newIndex) {
+                  if (newIndex == 1) {
+                      Future.delayed(Duration(seconds: 3), () {
+                        setState(() {
+                          dummyLoading = true;
+                        });
+                      });
+                    }
                   setState(() {
                     currentIndex = newIndex;
                   });
