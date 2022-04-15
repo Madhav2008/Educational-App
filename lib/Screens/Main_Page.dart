@@ -1226,7 +1226,9 @@ class _MainPageState extends State<MainPage>
                                 padding: EdgeInsets.all(8.0),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: <Widget>[],
+                                  children: <Widget>[
+                                    Text('')
+                                  ],
                                 ),
                               ),
                             )
