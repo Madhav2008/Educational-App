@@ -1151,9 +1151,9 @@ class _MainPageState extends State<MainPage>
                   setState(() {
                     currentIndex = newIndex;
                     if (newIndex == 1) {
-                      Future.delayed(Duration(seconds: 3), () {setState(() {
-                        
-                      });});
+                      Future.delayed(Duration(seconds: 3), () {
+                        setState(() {});
+                      });
                     }
                   });
                 },
