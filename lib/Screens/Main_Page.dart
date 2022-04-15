@@ -1201,7 +1201,9 @@ class _MainPageState extends State<MainPage>
                   ListView.separated(
                     shrinkWrap: true,
                     itemBuilder: (context, index) {
-                      return Container();
+                      return Container(
+                        height: 84,
+                      );
                     },
                     itemCount: 5,
                     separatorBuilder: (BuildContext context, int index) {
