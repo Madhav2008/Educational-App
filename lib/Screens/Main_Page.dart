@@ -1253,7 +1253,6 @@ class _MainPageState extends State<MainPage>
                                             fontSize: 12,
                                           ),
                                         ),
-                                        Spacer(),
                                         Icon(
                                           Icons.message,
                                           size: 12,
