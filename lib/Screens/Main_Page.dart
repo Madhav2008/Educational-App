@@ -1213,7 +1213,7 @@ class _MainPageState extends State<MainPage>
                               child: Container(
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(12),
-                                  color: Colors.lightGreenAccent
+                                  color: Colors.lightGreenAccent,
                                 ),
                               ),
                             ),
