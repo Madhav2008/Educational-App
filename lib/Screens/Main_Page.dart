@@ -1224,7 +1224,7 @@ class _MainPageState extends State<MainPage>
                               flex: 11,
                               child: Padding(
                                 padding: EdgeInsets.symmetric(
-                                  vertical: 8,horizontal: 16
+                                  vertical: 8,horizontal: 16,
                                 ),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
