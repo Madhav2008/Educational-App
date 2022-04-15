@@ -19,7 +19,7 @@ class _MainPageState extends State<MainPage>
     // TODO: implement initState
     super.initState();
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
