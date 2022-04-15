@@ -1077,6 +1077,7 @@ class _MainPageState extends State<MainPage>
                         ),
                       ],
                     ),
+                    child: Center()
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
