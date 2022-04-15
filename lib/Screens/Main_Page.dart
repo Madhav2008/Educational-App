@@ -1147,7 +1147,9 @@ class _MainPageState extends State<MainPage>
               height: 32,
               child: TabBar(
                 onTap: (newIndex) {
-                  setState(() {});
+                  setState(() {
+                    currentIndex = newIndex;
+                  });
                 },
                 unselectedLabelStyle: TextStyle(
                   color: Colors.grey,
