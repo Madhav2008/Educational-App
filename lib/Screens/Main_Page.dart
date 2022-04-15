@@ -1181,7 +1181,9 @@ class _MainPageState extends State<MainPage>
               ),
             ),
             Container(
-              padding: EdgeInsets.only(left: 24,),
+              padding: EdgeInsets.only(
+                left: 24,
+              ),
             ),
           ],
         ),
