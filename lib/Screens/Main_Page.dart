@@ -1188,7 +1188,7 @@ class _MainPageState extends State<MainPage>
               ),
               height: 380,
               child: TabBarView(
-                controller: _tabController,
+                controller: _tabController, children: [],
               ),
             ),
           ],
