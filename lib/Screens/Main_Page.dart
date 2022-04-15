@@ -1184,6 +1184,7 @@ class _MainPageState extends State<MainPage>
               padding: EdgeInsets.only(
                 left: 24,
                 right: 24,
+                top: 8
               ),
             ),
           ],
