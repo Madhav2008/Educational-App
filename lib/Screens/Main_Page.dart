@@ -1231,7 +1231,7 @@ class _MainPageState extends State<MainPage>
                                       'How hard is it for humans to climb Mount Everest?',
                                     ),
                                     Spacer(),
-                                    Row(children: [],),
+                                    Row(children: <Widget>[],),
                                   ],
                                 ),
                               ),
