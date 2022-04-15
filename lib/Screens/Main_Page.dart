@@ -1246,7 +1246,9 @@ class _MainPageState extends State<MainPage>
                                         ),
                                         Text(
                                           '122',
-                                          style: TextStyle(fontSize: 12,),
+                                          style: TextStyle(
+                                            fontSize: 12,
+                                          ),
                                         ),
                                         Spacer(),
                                         Icon(
