@@ -1203,9 +1203,6 @@ class _MainPageState extends State<MainPage>
                     itemBuilder: (context, index) {
                       return Container(
                         height: 92,
-                        decoration: BoxDecoration(
-                          color: Colors.blue,
-                        ),
                         child: Row(
                           children: <Widget>[
                             Expanded(
