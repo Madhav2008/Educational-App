@@ -1206,7 +1206,9 @@ class _MainPageState extends State<MainPage>
                         decoration: BoxDecoration(
                           color: Colors.blue,
                         ),
-                        child: Row(children: [],),
+                        child: Row(
+                          children: [],
+                        ),
                       );
                     },
                     itemCount: 5,
