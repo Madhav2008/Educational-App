@@ -10,7 +10,7 @@ class MainPage extends StatefulWidget {
   State<MainPage> createState() => _MainPageState();
 }
 
-class _MainPageState extends State<MainPage> {
+class _MainPageState extends State<MainPage> with SingleTickerProviderStateMixin{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
