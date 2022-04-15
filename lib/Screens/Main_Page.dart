@@ -1191,6 +1191,7 @@ class _MainPageState extends State<MainPage>
                 controller: _tabController,
                 children: [
                   Placeholder(),
+                  Placeholder()
                 ],
               ),
             ),
