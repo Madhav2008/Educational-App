@@ -1350,7 +1350,7 @@ class _MainPageState extends State<MainPage>
                                             CrossAxisAlignment.start,
                                         children: <Widget>[
                                           Text(
-                                            'What is used in life to use Newton's',
+                                            'What is used in life to use Newton\'s first',
                                             style: TextStyle(
                                               fontSize: 13,
                                             ),
