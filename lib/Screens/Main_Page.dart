@@ -155,7 +155,7 @@ class _MainPageState extends State<MainPage>
                         ),
                         child: Center(
                           child: Icon(
-                            Icons.category,
+                            Icons.category,color: Colors.white,
                           ),
                         ),
                       ),
