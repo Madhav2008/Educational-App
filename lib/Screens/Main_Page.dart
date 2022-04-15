@@ -18,6 +18,7 @@ class _MainPageState extends State<MainPage>
   void initState() {
     // TODO: implement initState
     super.initState();
+    _tabController = TabController(length: 5, vsync: this)
   }
 
   @override
