@@ -693,7 +693,7 @@ class _MainPageState extends State<MainPage> {
                       vertical: 16,
                     ),
                     decoration: BoxDecoration(
-                      color: Colors.green
+                      color: Colors.green,
                     ),
                   ),
                 ],
