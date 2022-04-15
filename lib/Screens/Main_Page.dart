@@ -1304,7 +1304,7 @@ class _MainPageState extends State<MainPage>
                       return Divider();
                     },
                   ),
-                  !dummyLoading ? CircularProgressIndicator():
+                  !dummyLoading ? CircularProgressIndicator(): Placeholder(),
                   Placeholder(),
                   Placeholder(),
                   Placeholder(),
