@@ -1070,7 +1070,9 @@ class _MainPageState extends State<MainPage> {
                       Container(
                         height: 4,
                         width: 24,
-                        decoration: BoxDecoration(),
+                        decoration: BoxDecoration(
+                          color: Colors.teal
+                        ),
                       ),
                       Container(),
                       Container(),
