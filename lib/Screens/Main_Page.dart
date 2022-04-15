@@ -700,7 +700,7 @@ class _MainPageState extends State<MainPage> {
                       borderRadius: BorderRadius.circular(
                         16,
                       ),
-                      boxShadow: []
+                      boxShadow: [],
                     ),
                   ),
                 ],
