@@ -1154,7 +1154,9 @@ class _MainPageState extends State<MainPage>
                         dummyLoading = true;
                       });
                     });
-                  } else {
+                  } else {setState(() {
+                    
+                  });
                     dummyLoading = false;
                   }
                   setState(() {
