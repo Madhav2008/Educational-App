@@ -1208,7 +1208,7 @@ class _MainPageState extends State<MainPage>
                         ),
                         child: Row(
                           children: <Widget>[
-                            Expanded(
+                            Expanded(flex: 3,
                               child: Placeholder(),
                             ),
                           ],
