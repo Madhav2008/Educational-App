@@ -1304,7 +1304,11 @@ class _MainPageState extends State<MainPage>
                       return Divider();
                     },
                   ),
-                  !dummyLoading ? Center(child: CircularProgressIndicator(),) : Placeholder(),
+                  !dummyLoading
+                      ? Center(
+                          child: CircularProgressIndicator(),
+                        )
+                      : Placeholder(),
                   Placeholder(),
                   Placeholder(),
                   Placeholder(),
