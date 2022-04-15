@@ -289,7 +289,7 @@ class _MainPageState extends State<MainPage>
                           ],
                         ),
                         child: Center(
-                          child: Icon(Icons.leaderboard_rounded),
+                          child: Icon(Icons.leaderboard_rounded,),
                         ),
                       ),
                       SizedBox(
