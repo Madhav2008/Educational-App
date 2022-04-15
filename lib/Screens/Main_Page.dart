@@ -298,7 +298,10 @@ class _MainPageState extends State<MainPage> {
                     ),
                     child: Row(
                       children: <Widget>[
-                        Text('Recommended course', style: TextStyle(),),
+                        Text(
+                          'Recommended course',
+                          style: TextStyle(),
+                        ),
                         Spacer(),
                         Text('More'),
                       ],
