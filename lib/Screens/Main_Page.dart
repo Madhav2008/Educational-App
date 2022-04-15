@@ -1076,6 +1076,7 @@ class _MainPageState extends State<MainPage> {
                           borderRadius: BorderRadius.circular(4),
                         ),
                       ),
+                      SizedBox()
                       Container(
                         height: 4,
                         width: 20,
