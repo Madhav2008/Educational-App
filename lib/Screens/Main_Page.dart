@@ -291,7 +291,7 @@ class _MainPageState extends State<MainPage>
                         ),
                         child: Center(
                           child: Icon(
-                            Icons.video_camera_back,
+                            Icons.videocam,
                             color: Colors.white,
                             size: 30,
                           ),
