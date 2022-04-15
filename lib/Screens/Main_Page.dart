@@ -1148,7 +1148,10 @@ class _MainPageState extends State<MainPage>
                 ),
                 indicatorSize: TabBarIndicatorSize.label,
                 indicatorColor: Colors.teal,
-                indicator: UnderlineTabIndicator(),
+                indicator: UnderlineTabIndicator(
+                  borderSide: 
+                  BorderSide()
+                ),
                 tabs: <Widget>[
                   Tab(
                     text: 'Popular',
