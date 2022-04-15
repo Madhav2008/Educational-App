@@ -10,7 +10,9 @@ class MainPage extends StatefulWidget {
   State<MainPage> createState() => _MainPageState();
 }
 
-class _MainPageState extends State<MainPage> with SingleTickerProviderStateMixin{
+class _MainPageState extends State<MainPage>
+    with SingleTickerProviderStateMixin {
+  TabController _tabController;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
