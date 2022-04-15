@@ -1304,7 +1304,7 @@ class _MainPageState extends State<MainPage>
                       return Divider();
                     },
                   ),
-                  Placeholder(),
+                  !dummyLoading ?:
                   Placeholder(),
                   Placeholder(),
                   Placeholder(),
