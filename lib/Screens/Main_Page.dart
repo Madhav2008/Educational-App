@@ -1227,7 +1227,7 @@ class _MainPageState extends State<MainPage>
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[
-                                    Text('How hard is it'),
+                                    Text('How hard is it for'),
                                   ],
                                 ),
                               ),
