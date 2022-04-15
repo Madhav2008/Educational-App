@@ -691,7 +691,7 @@ class _MainPageState extends State<MainPage> {
                     ),
                   ),
                   Container(
-                    height: 180,
+                    height: 150,
                     margin: EdgeInsets.symmetric(
                       vertical: 16,
                     ),
