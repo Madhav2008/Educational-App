@@ -1239,7 +1239,8 @@ class _MainPageState extends State<MainPage>
                                         ),
                                         Spacer(),
                                         Icon(
-                                          Icons.favorite,size: 12,
+                                          Icons.favorite,
+                                          size: 12,
                                         ),
                                         Text(
                                           '122',
