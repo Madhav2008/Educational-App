@@ -1202,7 +1202,7 @@ class _MainPageState extends State<MainPage>
                     shrinkWrap: true,
                     itemBuilder: (context, index) {
                       return Container();
-                    },
+                    }, itemCount: null,
                   ),
                   Placeholder(),
                   Placeholder(),
