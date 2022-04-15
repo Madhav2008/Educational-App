@@ -300,7 +300,9 @@ class _MainPageState extends State<MainPage> {
                       children: <Widget>[
                         Text(
                           'Recommended course',
-                          style: TextStyle(),
+                          style: TextStyle(
+                            fontSize: 18
+                          ),
                         ),
                         Spacer(),
                         Text('More'),
