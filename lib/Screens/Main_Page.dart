@@ -1274,7 +1274,8 @@ class _MainPageState extends State<MainPage>
                                         Spacer(),
                                         Icon(
                                           Icons.more_horiz,
-                                          size: 12,color: Colors.grey,
+                                          size: 12,
+                                          color: Colors.grey,
                                         ),
                                       ],
                                     ),
