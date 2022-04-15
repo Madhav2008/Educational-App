@@ -1140,6 +1140,7 @@ class _MainPageState extends State<MainPage>
               child: TabBar(
                 unselectedLabelStyle: TextStyle(
                   color: Colors.grey,
+                  fontSize: 16
                 ),
                 tabs: <Widget>[
                   Tab(
