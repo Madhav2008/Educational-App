@@ -1267,6 +1267,7 @@ class _MainPageState extends State<MainPage>
                                           size: 12,
                                           color: Colors.grey,
                                         ),
+                                        SizedBox(),
                                         Text(
                                           '98',
                                           style: TextStyle(
