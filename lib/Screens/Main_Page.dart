@@ -262,7 +262,7 @@ class _MainPageState extends State<MainPage>
                           ],
                         ),
                         child: Center(
-                          child: Icon(Icons.video_camera_back, color: white,
+                          child: Icon(Icons.video_camera_back, color: Colors.white,
                         ),
                       ),
                       SizedBox(
