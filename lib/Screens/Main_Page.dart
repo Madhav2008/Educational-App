@@ -1227,6 +1227,7 @@ class _MainPageState extends State<MainPage>
                                   top: 8,
                                   bottom: 8,
                                   right: 16,
+                                  left: 16,
                                 ),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
