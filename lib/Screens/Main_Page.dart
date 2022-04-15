@@ -1153,6 +1153,7 @@ class _MainPageState extends State<MainPage>
                     width: 2,
                     color: Colors.white,
                   ),
+                  insets: EdgeInsets.symmetric(horizontal: 6)
                 ),
                 tabs: <Widget>[
                   Tab(
