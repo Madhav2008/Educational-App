@@ -327,6 +327,7 @@ class _MainPageState extends State<MainPage>
                           child: Icon(
                             Icons.leaderboard_rounded,
                             color: Colors.white,
+                            size: 30
                           ),
                         ),
                       ),
