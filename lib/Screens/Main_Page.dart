@@ -293,7 +293,7 @@ class _MainPageState extends State<MainPage>
                           child: Icon(
                             Icons.video_camera_back,
                             color: Colors.white,
-                            size: 30
+                            size: 30,
                           ),
                         ),
                       ),
