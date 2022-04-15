@@ -1132,7 +1132,7 @@ class _MainPageState extends State<MainPage>
                       ),
                     ],
                   ),
-                  SizedBox()
+                  SizedBox(),
                 ],
               ),
             ),
