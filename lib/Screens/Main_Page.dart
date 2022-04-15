@@ -1065,6 +1065,7 @@ class _MainPageState extends State<MainPage> {
                       ],
                     ),
                   ),
+                  Center()
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
