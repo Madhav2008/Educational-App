@@ -1157,6 +1157,7 @@ class _MainPageState extends State<MainPage>
                     horizontal: 4,
                   ),
                 ),
+                isScrollable: true,
                 tabs: <Widget>[
                   Tab(
                     text: 'Popular',
