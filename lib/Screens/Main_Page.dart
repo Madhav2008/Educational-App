@@ -1212,7 +1212,9 @@ class _MainPageState extends State<MainPage>
                               flex: 3,
                               child: Placeholder(),
                             ),
-                            Expanded(child: Placeholder(),)
+                            Expanded(
+                              child: Placeholder(),
+                            )
                           ],
                         ),
                       );
