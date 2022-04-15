@@ -1150,7 +1150,7 @@ class _MainPageState extends State<MainPage>
                 onTap: (newIndex) {
                   setState(() {
                     currentIndex = newIndex;
-                    if(newIndex == 1){}
+                    if (newIndex == 1) {}
                   });
                 },
                 unselectedLabelStyle: TextStyle(
