@@ -1224,7 +1224,7 @@ class _MainPageState extends State<MainPage>
                               flex: 11,
                               child: Padding(
                                 padding: EdgeInsets.only(
-                                  top: 8.0,
+                                  top: 8,
                                   bottom: 8,
                                 ),
                                 child: Column(
