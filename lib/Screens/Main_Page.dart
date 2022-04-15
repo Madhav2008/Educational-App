@@ -1159,6 +1159,7 @@ class _MainPageState extends State<MainPage>
                 ),
                 isScrollable: true,
                 labelColor: Colors.black,
+                unselectedLabelColor: Colors.grey,
                 tabs: <Widget>[
                   Tab(
                     text: 'Popular',
