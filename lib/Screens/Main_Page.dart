@@ -1082,7 +1082,7 @@ class _MainPageState extends State<MainPage> {
                         ),
                       ),
                       Container(
-                        height: 4,
+                        height: 4,width: 20,
                       ),
                       Container(),
                     ],
