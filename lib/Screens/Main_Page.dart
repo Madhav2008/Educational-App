@@ -1240,7 +1240,7 @@ class _MainPageState extends State<MainPage>
                                         Spacer(),
                                         Icon(Icons.message),
                                         Text('98'),
-                                        Spacer()
+                                        Spacer(),
                                       ],
                                     ),
                                   ],
