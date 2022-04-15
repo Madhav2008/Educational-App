@@ -1215,7 +1215,9 @@ class _MainPageState extends State<MainPage>
                                   borderRadius: BorderRadius.circular(12),
                                   color: Colors.red[100],
                                 ),
-                                child: Center(),
+                                child: Center(
+                                  child: Text('Place Image'),
+                                ),
                               ),
                             ),
                             Expanded(
