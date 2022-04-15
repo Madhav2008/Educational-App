@@ -1237,7 +1237,7 @@ class _MainPageState extends State<MainPage>
                                           'Record',
                                         ),
                                         Spacer(),
-                                        Icon(Icons.favorite),
+                                        Icon(Icons.favorite,),
                                         Text('122'),
                                         Spacer(),
                                         Icon(Icons.message),
