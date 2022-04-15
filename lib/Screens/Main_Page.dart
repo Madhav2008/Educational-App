@@ -12,7 +12,7 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage>
     with SingleTickerProviderStateMixin {
-  TabController _tabController;
+  late TabController _tabController;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
