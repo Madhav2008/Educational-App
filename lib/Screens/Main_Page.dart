@@ -301,7 +301,7 @@ class _MainPageState extends State<MainPage> {
                         Text(
                           'Recommended course',
                           style: TextStyle(
-                            fontSize: 18
+                            fontSize: 18,
                           ),
                         ),
                         Spacer(),
