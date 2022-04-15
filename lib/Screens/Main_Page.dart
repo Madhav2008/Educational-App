@@ -1148,15 +1148,15 @@ class _MainPageState extends State<MainPage>
                 ),
                 indicatorSize: TabBarIndicatorSize.label,
                 indicatorColor: Colors.teal,
-                indicator: UnderlineTabIndicator(
-                  borderSide: BorderSide(
-                    width: 2,
-                    color: Colors.white,
-                  ),
-                  insets: EdgeInsets.symmetric(
-                    horizontal: 4,
-                  ),
-                ),
+                // indicator: UnderlineTabIndicator(
+                //   borderSide: BorderSide(
+                //     width: 2,
+                //     color: Colors.white,
+                //   ),
+                //   insets: EdgeInsets.symmetric(
+                //     horizontal: 4,
+                //   ),
+                // ),
                 isScrollable: true,
                 labelColor: Colors.black,
                 unselectedLabelColor: Colors.grey,
