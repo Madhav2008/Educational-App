@@ -670,7 +670,7 @@ class _MainPageState extends State<MainPage> {
                             ],
                           ),
                         ),
-                      children: <Widget>[
+                      // children: <Widget>[
                         Container(
                           width: 140,
                           margin: EdgeInsets.only(
