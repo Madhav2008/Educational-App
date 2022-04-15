@@ -1143,7 +1143,7 @@ class _MainPageState extends State<MainPage>
                   fontSize: 16,
                 ),
                 labelStyle: TextStyle(
-                  color: Colors.black,
+                  color: Colors.black,fontSize: 20
                 ),
                 tabs: <Widget>[
                   Tab(
