@@ -1148,7 +1148,9 @@ class _MainPageState extends State<MainPage>
                   Tab(
                     text: 'Test',
                   ),
-                  Tab(text: 'Task',),
+                  Tab(
+                    text: 'Task',
+                  ),
                 ],
               ),
             ),
