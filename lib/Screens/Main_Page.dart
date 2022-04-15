@@ -19,8 +19,8 @@ class _MainPageState extends State<MainPage>
     // TODO: implement initState
     super.initState();
     _tabController = TabController(
-      length: 5,
       vsync: this,
+      length: 5,
     );
   }
 
