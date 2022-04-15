@@ -1350,7 +1350,7 @@ class _MainPageState extends State<MainPage>
                                             CrossAxisAlignment.start,
                                         children: <Widget>[
                                           Text(
-                                            'What is used',
+                                            'What is used in',
                                             style: TextStyle(
                                               fontSize: 13,
                                             ),
