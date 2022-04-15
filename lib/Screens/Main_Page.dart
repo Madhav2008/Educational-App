@@ -262,8 +262,10 @@ class _MainPageState extends State<MainPage>
                           ],
                         ),
                         child: Center(
-                          child: Icon(Icons.video_camera_back, color: Colors.white,)
-                        ),
+                            child: Icon(
+                          Icons.video_camera_back,
+                          color: Colors.white,
+                        )),
                       ),
                       SizedBox(
                         height: 8,
