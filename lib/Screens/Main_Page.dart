@@ -1209,7 +1209,7 @@ class _MainPageState extends State<MainPage>
                         child: Row(
                           children: <Widget>[
                             Expanded(
-                              flex: 3,
+                              flex: 4,
                               child: Container(
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(12),
